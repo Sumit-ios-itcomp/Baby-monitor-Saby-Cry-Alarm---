@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-Medium.ttf">
+            <string>SofiaSans-Medium</string>
+        </array>
+        <array key="SofiaSans[wdth,wght].ttf">
+            <string>SofiaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CaustomAlert" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <connections>
+                <outlet property="alertLabel" destination="vbp-7r-0aW" id="lil-8m-Zdg"/>
+                <outlet property="alertMessage" destination="lIK-6H-48d" id="B5B-Hc-hhK"/>
+                <outlet property="sendLinkButton" destination="8Tg-85-nCj" id="S58-5p-Ltv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="586" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineonAlert" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-OG-zdK">
+                    <rect key="frame" x="253" y="22" width="80" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="51.5" id="EhD-w9-vwX">
+                            <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="2" id="Y6F-5B-tw5">
+                            <variation key="heightClass=regular-widthClass=regular" constant="4"/>
+                        </constraint>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kehjebfjhebjhfbjhbfejhbfwjhfw" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbp-7r-0aW">
+                    <rect key="frame" x="25" y="76" width="536" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Medium" family="Sofia Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Medium" family="Sofia Sans" pointSize="40"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tg-85-nCj">
+                    <rect key="frame" x="137.5" y="161" width="311" height="100"/>
+                    <color key="backgroundColor" name="gray"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="211" id="Vk5-DV-0uM">
+                            <variation key="heightClass=regular-widthClass=regular" constant="311"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="50" id="zgm-3f-lmf">
+                            <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                        </constraint>
+                    </constraints>
+                    <color key="tintColor" name="white_1"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Send link">
+                        <fontDescription key="titleFontDescription" name="SofiaSans-SemiBold" family="Sofia Sans" pointSize="20"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="shareLink:" destination="-1" eventType="touchUpInside" id="m8K-Nb-fyP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelwjhdwjhdbww" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIK-6H-48d">
+                    <rect key="frame" x="16" y="315" width="554" height="32"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="15"/>
+                    <color key="textColor" name="gray"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="32"/>
+                    </variation>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vbp-7r-0aW" firstAttribute="top" secondItem="8OI-OG-zdK" secondAttribute="bottom" constant="20" id="2W6-Ib-lGJ">
+                    <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                </constraint>
+                <constraint firstItem="lIK-6H-48d" firstAttribute="top" secondItem="8Tg-85-nCj" secondAttribute="bottom" constant="34" id="7pk-ct-Qd4">
+                    <variation key="heightClass=regular-widthClass=regular" constant="54"/>
+                </constraint>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vbp-7r-0aW" secondAttribute="trailing" constant="25" id="CAU-ED-RpX"/>
+                <constraint firstItem="8OI-OG-zdK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gvs-TT-UaC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lIK-6H-48d" secondAttribute="trailing" constant="16" id="PvY-4z-bBf"/>
+                <constraint firstItem="8Tg-85-nCj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qmb-pg-avF"/>
+                <constraint firstItem="8Tg-85-nCj" firstAttribute="top" secondItem="vbp-7r-0aW" secondAttribute="bottom" constant="45" id="WRR-IY-1El"/>
+                <constraint firstItem="vbp-7r-0aW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="aF8-wP-E8v"/>
+                <constraint firstItem="lIK-6H-48d" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="liP-Zt-qWY"/>
+                <constraint firstItem="8OI-OG-zdK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="rw9-yG-K5z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="208.53658536585365" y="393.55932203389835"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lineonAlert" width="51.5" height="2"/>
+        <namedColor name="gray">
+            <color red="0.3843137254901961" green="0.41960784313725491" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white_1">
+            <color red="0.93725490196078431" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

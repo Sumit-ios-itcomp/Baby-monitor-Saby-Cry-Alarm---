@@ -1,0 +1,1316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0149846289A849400B4CC9D /* BabyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0149844289A849400B4CC9D /* BabyViewController.swift */; };
+		E0149847289A849400B4CC9D /* BabyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0149845289A849400B4CC9D /* BabyViewController.xib */; };
+		E014984B289A999E00B4CC9D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0149849289A999E00B4CC9D /* CameraViewController.swift */; };
+		E014984C289A999F00B4CC9D /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E014984A289A999E00B4CC9D /* CameraViewController.xib */; };
+		E0149850289A9BCB00B4CC9D /* ReportProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E014984E289A9BCB00B4CC9D /* ReportProblemViewController.swift */; };
+		E0149851289A9BCB00B4CC9D /* ReportProblemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E014984F289A9BCB00B4CC9D /* ReportProblemViewController.xib */; };
+		E0149853289AAE9200B4CC9D /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0149852289AAE9200B4CC9D /* SwipeViewController.swift */; };
+		E01EAAF4289C010D0021CBEF /* AddNewDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EAAF2289C010D0021CBEF /* AddNewDeviceVC.swift */; };
+		E01EAAF5289C010D0021CBEF /* AddNewDeviceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01EAAF3289C010D0021CBEF /* AddNewDeviceVC.xib */; };
+		E022E1032893BDDC005EB3F0 /* CommonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022E1022893BDDC005EB3F0 /* CommonMethod.swift */; };
+		E022E1152893D519005EB3F0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E022E1142893D519005EB3F0 /* Alamofire */; };
+		E045404F2897E78D000598E3 /* ActivityViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045404E2897E78D000598E3 /* ActivityViewController+Extention.swift */; };
+		E04540512897EC50000598E3 /* PairedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04540502897EC50000598E3 /* PairedAlert.swift */; };
+		E04540532897EC63000598E3 /* PairedAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04540522897EC63000598E3 /* PairedAlert.xib */; };
+		E04540542897F2F9000598E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05344F928902B5500DBD802 /* Assets.xcassets */; };
+		E04540582897FDD4000598E3 /* DiscoverableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04540562897FDD4000598E3 /* DiscoverableViewController.swift */; };
+		E04540592897FDD4000598E3 /* DiscoverableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04540572897FDD4000598E3 /* DiscoverableViewController.xib */; };
+		E0477B6A2893EA2F00FF8DDD /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0477B692893EA2F00FF8DDD /* ScannerView.swift */; };
+		E0477B6E2893EA9100FF8DDD /* ScannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0477B6D2893EA9100FF8DDD /* ScannerView.xib */; };
+		E0477B712893F0A800FF8DDD /* ScanerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0477B6F2893F0A800FF8DDD /* ScanerViewController.swift */; };
+		E0477B722893F0A800FF8DDD /* ScanerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0477B702893F0A800FF8DDD /* ScanerViewController.xib */; };
+		E0477B742893FBBC00FF8DDD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0477B732893FBBC00FF8DDD /* Constant.swift */; };
+		E0477B772894122D00FF8DDD /* CaustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0477B762894122C00FF8DDD /* CaustomAlert.swift */; };
+		E0477B792894124900FF8DDD /* CaustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0477B782894124900FF8DDD /* CaustomAlert.xib */; };
+		E04F66762892A5D00036BCFF /* LetsStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F66742892A5D00036BCFF /* LetsStartViewController.swift */; };
+		E04F66772892A5D00036BCFF /* LetsStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04F66752892A5D00036BCFF /* LetsStartViewController.xib */; };
+		E0521E58289CF5E00016B976 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0521E56289CF5E00016B976 /* QRViewController.swift */; };
+		E0521E59289CF5E00016B976 /* QRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0521E57289CF5E00016B976 /* QRViewController.xib */; };
+		E0521E5C289CF6A00016B976 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0521E5B289CF6A00016B976 /* QRView.swift */; };
+		E0521E5E289CF6AF0016B976 /* QRView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0521E5D289CF6AF0016B976 /* QRView.xib */; };
+		E05344F128902B5400DBD802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05344F028902B5400DBD802 /* AppDelegate.swift */; };
+		E05344F328902B5400DBD802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05344F228902B5400DBD802 /* SceneDelegate.swift */; };
+		E05344FD28902B5500DBD802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05344FB28902B5500DBD802 /* LaunchScreen.storyboard */; };
+		E053450728902D8D00DBD802 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053450528902D8D00DBD802 /* ApiManager.swift */; };
+		E053450828902D8D00DBD802 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053450628902D8D00DBD802 /* BaseResponse.swift */; };
+		E0587BE42899067F0077430E /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BE22899067F0077430E /* DeviceViewController.swift */; };
+		E0587BE52899067F0077430E /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587BE32899067F0077430E /* DeviceViewController.xib */; };
+		E0587BEC289908A80077430E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BEB289908A80077430E /* NavigationView.swift */; };
+		E0587BEE289908BA0077430E /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587BED289908BA0077430E /* NavigationView.xib */; };
+		E0587BF12899253A0077430E /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BEF2899253A0077430E /* DeviceCollectionViewCell.swift */; };
+		E0587BF22899253A0077430E /* DeviceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587BF02899253A0077430E /* DeviceCollectionViewCell.xib */; };
+		E0587BF628993A0A0077430E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BF428993A0A0077430E /* SettingViewController.swift */; };
+		E0587BF728993A0A0077430E /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587BF528993A0A0077430E /* SettingViewController.xib */; };
+		E0587BFA289947CA0077430E /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BF8289947CA0077430E /* SettingTableViewCell.swift */; };
+		E0587BFB289947CA0077430E /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587BF9289947CA0077430E /* SettingTableViewCell.xib */; };
+		E0587BFD2899512F0077430E /* SettingTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BFC2899512F0077430E /* SettingTableModel.swift */; };
+		E0587C01289969020077430E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587BFF289969020077430E /* NotificationViewController.swift */; };
+		E0587C02289969020077430E /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0587C00289969020077430E /* NotificationViewController.xib */; };
+		E0672DD828980E3500F43656 /* Navigation+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0672DD728980E3500F43656 /* Navigation+Extention.swift */; };
+		E0672DDC2898134400F43656 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0672DDA2898134400F43656 /* MainViewController.swift */; };
+		E0672DDD2898134400F43656 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0672DDB2898134400F43656 /* MainViewController.xib */; };
+		E080A82828911BFC0065C513 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E080A82728911BFC0065C513 /* IQKeyboardManagerSwift */; };
+		E080A82B28911C4D0065C513 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E080A82A28911C4D0065C513 /* Alamofire */; };
+		E080A835289121840065C513 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A834289121840065C513 /* Helper.swift */; };
+		E080A8A028913C1E0065C513 /* qaSofia-vfroman-15.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83728913C1E0065C513 /* qaSofia-vfroman-15.md */; };
+		E080A8A128913C1E0065C513 /* qaSofia-vfitalics-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83928913C1E0065C513 /* qaSofia-vfitalics-assessment.md */; };
+		E080A8A228913C1E0065C513 /* qaSofiaSansSemiCond-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83A28913C1E0065C513 /* qaSofiaSansSemiCond-assessment.md */; };
+		E080A8A328913C1E0065C513 /* qaSofiaSansExtraCond-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83B28913C1E0065C513 /* qaSofiaSansExtraCond-assessment.md */; };
+		E080A8A428913C1E0065C513 /* qaSofia-vfroman-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83C28913C1E0065C513 /* qaSofia-vfroman-assessment.md */; };
+		E080A8A528913C1E0065C513 /* qaSofiaSans-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83D28913C1E0065C513 /* qaSofiaSans-assessment.md */; };
+		E080A8A628913C1E0065C513 /* qaSofiaSansCond-assessment.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83E28913C1E0065C513 /* qaSofiaSansCond-assessment.md */; };
+		E080A8A728913C1E0065C513 /* qaSofia-vfitalics-03.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A83F28913C1E0065C513 /* qaSofia-vfitalics-03.md */; };
+		E080A8A828913C1E0065C513 /* SofiaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84128913C1E0065C513 /* SofiaSans-Bold.ttf */; };
+		E080A8A928913C1E0065C513 /* SofiaSansSemiCond-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84228913C1E0065C513 /* SofiaSansSemiCond-SemiBoldItalic.ttf */; };
+		E080A8AA28913C1E0065C513 /* SofiaSansExtraCond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84328913C1E0065C513 /* SofiaSansExtraCond-Regular.ttf */; };
+		E080A8AB28913C1E0065C513 /* SofiaSansExtraCond-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84428913C1E0065C513 /* SofiaSansExtraCond-Italic.ttf */; };
+		E080A8AC28913C1E0065C513 /* SofiaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84528913C1E0065C513 /* SofiaSans-Regular.ttf */; };
+		E080A8AD28913C1E0065C513 /* SofiaSansCond-ExtraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84628913C1E0065C513 /* SofiaSansCond-ExtraBlack.ttf */; };
+		E080A8AE28913C1E0065C513 /* SofiaSansSemiCond-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84728913C1E0065C513 /* SofiaSansSemiCond-LightItalic.ttf */; };
+		E080A8AF28913C1E0065C513 /* SofiaSansSemiCond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84828913C1E0065C513 /* SofiaSansSemiCond-Light.ttf */; };
+		E080A8B028913C1E0065C513 /* SofiaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84928913C1E0065C513 /* SofiaSans-Light.ttf */; };
+		E080A8B128913C1E0065C513 /* SofiaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84A28913C1E0065C513 /* SofiaSans-SemiBoldItalic.ttf */; };
+		E080A8B228913C1E0065C513 /* SofiaSansCond-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84B28913C1E0065C513 /* SofiaSansCond-Thin.ttf */; };
+		E080A8B328913C1E0065C513 /* SofiaSansSemiCond-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84C28913C1E0065C513 /* SofiaSansSemiCond-Italic.ttf */; };
+		E080A8B428913C1E0065C513 /* SofiaSansCond-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84D28913C1E0065C513 /* SofiaSansCond-Italic.ttf */; };
+		E080A8B528913C1E0065C513 /* SofiaSansExtraCond-ExtraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A84E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlack.ttf */; };
+		E080A8B628913C1E0065C513 /* qaSofiaCond-03.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A84F28913C1E0065C513 /* qaSofiaCond-03.md */; };
+		E080A8B728913C1E0065C513 /* SofiaSansCond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85028913C1E0065C513 /* SofiaSansCond-Light.ttf */; };
+		E080A8B828913C1E0065C513 /* SofiaSans-ExtraBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85128913C1E0065C513 /* SofiaSans-ExtraBlackItalic.ttf */; };
+		E080A8B928913C1E0065C513 /* SofiaSansCond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85228913C1E0065C513 /* SofiaSansCond-Bold.ttf */; };
+		E080A8BA28913C1E0065C513 /* SofiaSansExtraCond-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85328913C1E0065C513 /* SofiaSansExtraCond-ExtraBoldItalic.ttf */; };
+		E080A8BB28913C1E0065C513 /* SofiaSansExtraCond-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85428913C1E0065C513 /* SofiaSansExtraCond-LightItalic.ttf */; };
+		E080A8BC28913C1E0065C513 /* SofiaSansExtraCond-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85528913C1E0065C513 /* SofiaSansExtraCond-SemiBoldItalic.ttf */; };
+		E080A8BD28913C1E0065C513 /* SofiaSans-ExtraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85628913C1E0065C513 /* SofiaSans-ExtraBlack.ttf */; };
+		E080A8BE28913C1E0065C513 /* SofiaSansCond-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85728913C1E0065C513 /* SofiaSansCond-SemiBoldItalic.ttf */; };
+		E080A8BF28913C1E0065C513 /* SofiaSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85828913C1E0065C513 /* SofiaSans-Thin.ttf */; };
+		E080A8C028913C1E0065C513 /* SofiaSansSemiCond-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85928913C1E0065C513 /* SofiaSansSemiCond-BoldItalic.ttf */; };
+		E080A8C128913C1E0065C513 /* SofiaSansCond-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85A28913C1E0065C513 /* SofiaSansCond-ExtraBold.ttf */; };
+		E080A8C228913C1E0065C513 /* SofiaSansSemiCond-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85B28913C1E0065C513 /* SofiaSansSemiCond-ExtraBold.ttf */; };
+		E080A8C328913C1E0065C513 /* SofiaSansCond-HairLineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85C28913C1E0065C513 /* SofiaSansCond-HairLineItalic.ttf */; };
+		E080A8C428913C1E0065C513 /* SofiaSansSemiCond-HairLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85D28913C1E0065C513 /* SofiaSansSemiCond-HairLine.ttf */; };
+		E080A8C528913C1E0065C513 /* SofiaSansSemiCond-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85E28913C1E0065C513 /* SofiaSansSemiCond-MediumItalic.ttf */; };
+		E080A8C628913C1E0065C513 /* SofiaSansExtraCond-HairLineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A85F28913C1E0065C513 /* SofiaSansExtraCond-HairLineItalic.ttf */; };
+		E080A8C728913C1E0065C513 /* SofiaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86028913C1E0065C513 /* SofiaSans-ExtraLightItalic.ttf */; };
+		E080A8C828913C1E0065C513 /* SofiaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86128913C1E0065C513 /* SofiaSans-ExtraBoldItalic.ttf */; };
+		E080A8C928913C1E0065C513 /* SofiaSansExtraCond-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86228913C1E0065C513 /* SofiaSansExtraCond-BlackItalic.ttf */; };
+		E080A8CA28913C1E0065C513 /* SofiaSansSemiCond-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86328913C1E0065C513 /* SofiaSansSemiCond-ExtraLight.ttf */; };
+		E080A8CB28913C1E0065C513 /* SofiaSansSemiCond-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86428913C1E0065C513 /* SofiaSansSemiCond-ThinItalic.ttf */; };
+		E080A8CC28913C1E0065C513 /* SofiaSansSemiCond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86528913C1E0065C513 /* SofiaSansSemiCond-SemiBold.ttf */; };
+		E080A8CD28913C1E0065C513 /* SofiaSansExtraCond-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86628913C1E0065C513 /* SofiaSansExtraCond-Black.ttf */; };
+		E080A8CE28913C1E0065C513 /* SofiaSansSemiCond-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86728913C1E0065C513 /* SofiaSansSemiCond-BlackItalic.ttf */; };
+		E080A8CF28913C1E0065C513 /* SofiaSans-HairLineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86828913C1E0065C513 /* SofiaSans-HairLineItalic.ttf */; };
+		E080A8D028913C1E0065C513 /* SofiaSansCond-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86928913C1E0065C513 /* SofiaSansCond-MediumItalic.ttf */; };
+		E080A8D128913C1E0065C513 /* SofiaSansExtraCond-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86A28913C1E0065C513 /* SofiaSansExtraCond-ExtraBold.ttf */; };
+		E080A8D228913C1E0065C513 /* SofiaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86B28913C1E0065C513 /* SofiaSans-Italic.ttf */; };
+		E080A8D328913C1E0065C513 /* SofiaSansSemiCond-HairLineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86C28913C1E0065C513 /* SofiaSansSemiCond-HairLineItalic.ttf */; };
+		E080A8D428913C1E0065C513 /* SofiaSansExtraCond-HairLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86D28913C1E0065C513 /* SofiaSansExtraCond-HairLine.ttf */; };
+		E080A8D528913C1E0065C513 /* SofiaSansCond-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86E28913C1E0065C513 /* SofiaSansCond-BlackItalic.ttf */; };
+		E080A8D628913C1E0065C513 /* SofiaSansExtraCond-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A86F28913C1E0065C513 /* SofiaSansExtraCond-Thin.ttf */; };
+		E080A8D728913C1E0065C513 /* qaSofiaExtraCond-04.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A87028913C1E0065C513 /* qaSofiaExtraCond-04.md */; };
+		E080A8D828913C1E0065C513 /* SofiaSansExtraCond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87128913C1E0065C513 /* SofiaSansExtraCond-SemiBold.ttf */; };
+		E080A8D928913C1E0065C513 /* SofiaSansSemiCond-ExtraBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87228913C1E0065C513 /* SofiaSansSemiCond-ExtraBlackItalic.ttf */; };
+		E080A8DA28913C1E0065C513 /* SofiaSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87328913C1E0065C513 /* SofiaSans-BlackItalic.ttf */; };
+		E080A8DB28913C1E0065C513 /* SofiaSansCond-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87428913C1E0065C513 /* SofiaSansCond-ExtraBoldItalic.ttf */; };
+		E080A8DC28913C1E0065C513 /* qaSofiaSemiCond-04.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A87528913C1E0065C513 /* qaSofiaSemiCond-04.md */; };
+		E080A8DD28913C1E0065C513 /* SofiaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87628913C1E0065C513 /* SofiaSans-Medium.ttf */; };
+		E080A8DE28913C1E0065C513 /* SofiaSansExtraCond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87728913C1E0065C513 /* SofiaSansExtraCond-Bold.ttf */; };
+		E080A8DF28913C1E0065C513 /* SofiaSansCond-ExtraBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87828913C1E0065C513 /* SofiaSansCond-ExtraBlackItalic.ttf */; };
+		E080A8E028913C1E0065C513 /* SofiaSansExtraCond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87928913C1E0065C513 /* SofiaSansExtraCond-Light.ttf */; };
+		E080A8E128913C1E0065C513 /* SofiaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87A28913C1E0065C513 /* SofiaSans-MediumItalic.ttf */; };
+		E080A8E228913C1E0065C513 /* SofiaSansExtraCond-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87B28913C1E0065C513 /* SofiaSansExtraCond-ExtraLightItalic.ttf */; };
+		E080A8E328913C1E0065C513 /* SofiaSansSemiCond-ExtraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87C28913C1E0065C513 /* SofiaSansSemiCond-ExtraBlack.ttf */; };
+		E080A8E428913C1E0065C513 /* SofiaSansExtraCond-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87D28913C1E0065C513 /* SofiaSansExtraCond-MediumItalic.ttf */; };
+		E080A8E528913C1E0065C513 /* SofiaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87E28913C1E0065C513 /* SofiaSans-ExtraBold.ttf */; };
+		E080A8E628913C1E0065C513 /* SofiaSansCond-HairLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A87F28913C1E0065C513 /* SofiaSansCond-HairLine.ttf */; };
+		E080A8E728913C1E0065C513 /* SofiaSansSemiCond-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88028913C1E0065C513 /* SofiaSansSemiCond-ExtraBoldItalic.ttf */; };
+		E080A8E828913C1E0065C513 /* SofiaSans-HairLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88128913C1E0065C513 /* SofiaSans-HairLine.ttf */; };
+		E080A8E928913C1E0065C513 /* SofiaSansCond-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88228913C1E0065C513 /* SofiaSansCond-Black.ttf */; };
+		E080A8EA28913C1E0065C513 /* SofiaSansSemiCond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88328913C1E0065C513 /* SofiaSansSemiCond-Medium.ttf */; };
+		E080A8EB28913C1E0065C513 /* SofiaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88428913C1E0065C513 /* SofiaSans-BoldItalic.ttf */; };
+		E080A8EC28913C1E0065C513 /* SofiaSansCond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88528913C1E0065C513 /* SofiaSansCond-Medium.ttf */; };
+		E080A8ED28913C1E0065C513 /* SofiaSansCond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88628913C1E0065C513 /* SofiaSansCond-SemiBold.ttf */; };
+		E080A8EE28913C1E0065C513 /* qaSofia-static-08.md in Resources */ = {isa = PBXBuildFile; fileRef = E080A88728913C1E0065C513 /* qaSofia-static-08.md */; };
+		E080A8EF28913C1E0065C513 /* SofiaSansSemiCond-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88828913C1E0065C513 /* SofiaSansSemiCond-Thin.ttf */; };
+		E080A8F028913C1E0065C513 /* SofiaSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88928913C1E0065C513 /* SofiaSans-ThinItalic.ttf */; };
+		E080A8F128913C1E0065C513 /* SofiaSansCond-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88A28913C1E0065C513 /* SofiaSansCond-ExtraLightItalic.ttf */; };
+		E080A8F228913C1E0065C513 /* SofiaSansExtraCond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88B28913C1E0065C513 /* SofiaSansExtraCond-Medium.ttf */; };
+		E080A8F328913C1E0065C513 /* SofiaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88C28913C1E0065C513 /* SofiaSans-SemiBold.ttf */; };
+		E080A8F428913C1E0065C513 /* SofiaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88D28913C1E0065C513 /* SofiaSans-ExtraLight.ttf */; };
+		E080A8F528913C1E0065C513 /* SofiaSansExtraCond-ExtraBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlackItalic.ttf */; };
+		E080A8F628913C1E0065C513 /* SofiaSansCond-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A88F28913C1E0065C513 /* SofiaSansCond-ThinItalic.ttf */; };
+		E080A8F728913C1E0065C513 /* SofiaSansExtraCond-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89028913C1E0065C513 /* SofiaSansExtraCond-BoldItalic.ttf */; };
+		E080A8F828913C1E0065C513 /* SofiaSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89128913C1E0065C513 /* SofiaSans-Black.ttf */; };
+		E080A8F928913C1E0065C513 /* SofiaSansSemiCond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89228913C1E0065C513 /* SofiaSansSemiCond-Bold.ttf */; };
+		E080A8FA28913C1E0065C513 /* SofiaSansCond-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89328913C1E0065C513 /* SofiaSansCond-LightItalic.ttf */; };
+		E080A8FB28913C1E0065C513 /* SofiaSansSemiCond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89428913C1E0065C513 /* SofiaSansSemiCond-Regular.ttf */; };
+		E080A8FC28913C1E0065C513 /* SofiaSansSemiCond-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89528913C1E0065C513 /* SofiaSansSemiCond-Black.ttf */; };
+		E080A8FD28913C1E0065C513 /* SofiaSansCond-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89628913C1E0065C513 /* SofiaSansCond-ExtraLight.ttf */; };
+		E080A8FE28913C1E0065C513 /* SofiaSansCond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89728913C1E0065C513 /* SofiaSansCond-Regular.ttf */; };
+		E080A8FF28913C1E0065C513 /* SofiaSansExtraCond-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89828913C1E0065C513 /* SofiaSansExtraCond-ExtraLight.ttf */; };
+		E080A90028913C1E0065C513 /* SofiaSansCond-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89928913C1E0065C513 /* SofiaSansCond-BoldItalic.ttf */; };
+		E080A90128913C1E0065C513 /* SofiaSansExtraCond-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89A28913C1E0065C513 /* SofiaSansExtraCond-ThinItalic.ttf */; };
+		E080A90228913C1E0065C513 /* SofiaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89B28913C1E0065C513 /* SofiaSans-LightItalic.ttf */; };
+		E080A90328913C1E0065C513 /* SofiaSansSemiCond-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89C28913C1E0065C513 /* SofiaSansSemiCond-ExtraLightItalic.ttf */; };
+		E080A90428913C1E0065C513 /* SofiaSansPictograms-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89D28913C1E0065C513 /* SofiaSansPictograms-Regular.ttf */; };
+		E080A90528913C1E0065C513 /* SofiaSans[wdth,wght].ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89E28913C1E0065C513 /* SofiaSans[wdth,wght].ttf */; };
+		E080A90628913C1E0065C513 /* SofiaSans-Italic[wdth,wght].ttf in Resources */ = {isa = PBXBuildFile; fileRef = E080A89F28913C1E0065C513 /* SofiaSans-Italic[wdth,wght].ttf */; };
+		E080A908289170630065C513 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A907289170630065C513 /* Parent.swift */; };
+		E080A90A2891709D0065C513 /* Parent.xib in Resources */ = {isa = PBXBuildFile; fileRef = E080A9092891709D0065C513 /* Parent.xib */; };
+		E080A90C28917C880065C513 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A90B28917C880065C513 /* Child.swift */; };
+		E080A90E28917C9C0065C513 /* Child.xib in Resources */ = {isa = PBXBuildFile; fileRef = E080A90D28917C9C0065C513 /* Child.xib */; };
+		E0F52CE9289A52DF00EC6425 /* PushController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F52CE8289A52DF00EC6425 /* PushController.swift */; };
+		E0F52CEC289A71D300EC6425 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F52CEA289A71D300EC6425 /* ParentViewController.swift */; };
+		E0F52CED289A71D300EC6425 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F52CEB289A71D300EC6425 /* ParentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0149844289A849400B4CC9D /* BabyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyViewController.swift; sourceTree = "<group>"; };
+		E0149845289A849400B4CC9D /* BabyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BabyViewController.xib; sourceTree = "<group>"; };
+		E0149849289A999E00B4CC9D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E014984A289A999E00B4CC9D /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		E014984E289A9BCB00B4CC9D /* ReportProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemViewController.swift; sourceTree = "<group>"; };
+		E014984F289A9BCB00B4CC9D /* ReportProblemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportProblemViewController.xib; sourceTree = "<group>"; };
+		E0149852289AAE9200B4CC9D /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		E01EAAF2289C010D0021CBEF /* AddNewDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDeviceVC.swift; sourceTree = "<group>"; };
+		E01EAAF3289C010D0021CBEF /* AddNewDeviceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewDeviceVC.xib; sourceTree = "<group>"; };
+		E022E1022893BDDC005EB3F0 /* CommonMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethod.swift; sourceTree = "<group>"; };
+		E045404E2897E78D000598E3 /* ActivityViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityViewController+Extention.swift"; sourceTree = "<group>"; };
+		E04540502897EC50000598E3 /* PairedAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedAlert.swift; sourceTree = "<group>"; };
+		E04540522897EC63000598E3 /* PairedAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PairedAlert.xib; sourceTree = "<group>"; };
+		E04540562897FDD4000598E3 /* DiscoverableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverableViewController.swift; sourceTree = "<group>"; };
+		E04540572897FDD4000598E3 /* DiscoverableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverableViewController.xib; sourceTree = "<group>"; };
+		E0477B692893EA2F00FF8DDD /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		E0477B6D2893EA9100FF8DDD /* ScannerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScannerView.xib; sourceTree = "<group>"; };
+		E0477B6F2893F0A800FF8DDD /* ScanerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanerViewController.swift; sourceTree = "<group>"; };
+		E0477B702893F0A800FF8DDD /* ScanerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanerViewController.xib; sourceTree = "<group>"; };
+		E0477B732893FBBC00FF8DDD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E0477B762894122C00FF8DDD /* CaustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaustomAlert.swift; sourceTree = "<group>"; };
+		E0477B782894124900FF8DDD /* CaustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaustomAlert.xib; sourceTree = "<group>"; };
+		E04F66742892A5D00036BCFF /* LetsStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsStartViewController.swift; sourceTree = "<group>"; };
+		E04F66752892A5D00036BCFF /* LetsStartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetsStartViewController.xib; sourceTree = "<group>"; };
+		E0521E56289CF5E00016B976 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		E0521E57289CF5E00016B976 /* QRViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRViewController.xib; sourceTree = "<group>"; };
+		E0521E5B289CF6A00016B976 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		E0521E5D289CF6AF0016B976 /* QRView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRView.xib; sourceTree = "<group>"; };
+		E05344ED28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aby monitor Saby + Cry Alarm - Разработка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05344F028902B5400DBD802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05344F228902B5400DBD802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E05344F928902B5500DBD802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05344FC28902B5500DBD802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05344FE28902B5500DBD802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E053450528902D8D00DBD802 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E053450628902D8D00DBD802 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		E0587BE22899067F0077430E /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		E0587BE32899067F0077430E /* DeviceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
+		E0587BEB289908A80077430E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		E0587BED289908BA0077430E /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		E0587BEF2899253A0077430E /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0587BF02899253A0077430E /* DeviceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCollectionViewCell.xib; sourceTree = "<group>"; };
+		E0587BF428993A0A0077430E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E0587BF528993A0A0077430E /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		E0587BF8289947CA0077430E /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		E0587BF9289947CA0077430E /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		E0587BFC2899512F0077430E /* SettingTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableModel.swift; sourceTree = "<group>"; };
+		E0587BFF289969020077430E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		E0587C00289969020077430E /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		E0672DD728980E3500F43656 /* Navigation+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+Extention.swift"; sourceTree = "<group>"; };
+		E0672DDA2898134400F43656 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E0672DDB2898134400F43656 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E080A834289121840065C513 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E080A83728913C1E0065C513 /* qaSofia-vfroman-15.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofia-vfroman-15.md"; sourceTree = "<group>"; };
+		E080A83928913C1E0065C513 /* qaSofia-vfitalics-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofia-vfitalics-assessment.md"; sourceTree = "<group>"; };
+		E080A83A28913C1E0065C513 /* qaSofiaSansSemiCond-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaSansSemiCond-assessment.md"; sourceTree = "<group>"; };
+		E080A83B28913C1E0065C513 /* qaSofiaSansExtraCond-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaSansExtraCond-assessment.md"; sourceTree = "<group>"; };
+		E080A83C28913C1E0065C513 /* qaSofia-vfroman-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofia-vfroman-assessment.md"; sourceTree = "<group>"; };
+		E080A83D28913C1E0065C513 /* qaSofiaSans-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaSans-assessment.md"; sourceTree = "<group>"; };
+		E080A83E28913C1E0065C513 /* qaSofiaSansCond-assessment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaSansCond-assessment.md"; sourceTree = "<group>"; };
+		E080A83F28913C1E0065C513 /* qaSofia-vfitalics-03.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofia-vfitalics-03.md"; sourceTree = "<group>"; };
+		E080A84128913C1E0065C513 /* SofiaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Bold.ttf"; sourceTree = "<group>"; };
+		E080A84228913C1E0065C513 /* SofiaSansSemiCond-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A84328913C1E0065C513 /* SofiaSansExtraCond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Regular.ttf"; sourceTree = "<group>"; };
+		E080A84428913C1E0065C513 /* SofiaSansExtraCond-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Italic.ttf"; sourceTree = "<group>"; };
+		E080A84528913C1E0065C513 /* SofiaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Regular.ttf"; sourceTree = "<group>"; };
+		E080A84628913C1E0065C513 /* SofiaSansCond-ExtraBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraBlack.ttf"; sourceTree = "<group>"; };
+		E080A84728913C1E0065C513 /* SofiaSansSemiCond-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-LightItalic.ttf"; sourceTree = "<group>"; };
+		E080A84828913C1E0065C513 /* SofiaSansSemiCond-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Light.ttf"; sourceTree = "<group>"; };
+		E080A84928913C1E0065C513 /* SofiaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Light.ttf"; sourceTree = "<group>"; };
+		E080A84A28913C1E0065C513 /* SofiaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A84B28913C1E0065C513 /* SofiaSansCond-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Thin.ttf"; sourceTree = "<group>"; };
+		E080A84C28913C1E0065C513 /* SofiaSansSemiCond-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Italic.ttf"; sourceTree = "<group>"; };
+		E080A84D28913C1E0065C513 /* SofiaSansCond-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Italic.ttf"; sourceTree = "<group>"; };
+		E080A84E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraBlack.ttf"; sourceTree = "<group>"; };
+		E080A84F28913C1E0065C513 /* qaSofiaCond-03.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaCond-03.md"; sourceTree = "<group>"; };
+		E080A85028913C1E0065C513 /* SofiaSansCond-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Light.ttf"; sourceTree = "<group>"; };
+		E080A85128913C1E0065C513 /* SofiaSans-ExtraBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraBlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A85228913C1E0065C513 /* SofiaSansCond-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Bold.ttf"; sourceTree = "<group>"; };
+		E080A85328913C1E0065C513 /* SofiaSansExtraCond-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A85428913C1E0065C513 /* SofiaSansExtraCond-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-LightItalic.ttf"; sourceTree = "<group>"; };
+		E080A85528913C1E0065C513 /* SofiaSansExtraCond-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A85628913C1E0065C513 /* SofiaSans-ExtraBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraBlack.ttf"; sourceTree = "<group>"; };
+		E080A85728913C1E0065C513 /* SofiaSansCond-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A85828913C1E0065C513 /* SofiaSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Thin.ttf"; sourceTree = "<group>"; };
+		E080A85928913C1E0065C513 /* SofiaSansSemiCond-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A85A28913C1E0065C513 /* SofiaSansCond-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E080A85B28913C1E0065C513 /* SofiaSansSemiCond-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E080A85C28913C1E0065C513 /* SofiaSansCond-HairLineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-HairLineItalic.ttf"; sourceTree = "<group>"; };
+		E080A85D28913C1E0065C513 /* SofiaSansSemiCond-HairLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-HairLine.ttf"; sourceTree = "<group>"; };
+		E080A85E28913C1E0065C513 /* SofiaSansSemiCond-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E080A85F28913C1E0065C513 /* SofiaSansExtraCond-HairLineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-HairLineItalic.ttf"; sourceTree = "<group>"; };
+		E080A86028913C1E0065C513 /* SofiaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E080A86128913C1E0065C513 /* SofiaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A86228913C1E0065C513 /* SofiaSansExtraCond-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A86328913C1E0065C513 /* SofiaSansSemiCond-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E080A86428913C1E0065C513 /* SofiaSansSemiCond-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E080A86528913C1E0065C513 /* SofiaSansSemiCond-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-SemiBold.ttf"; sourceTree = "<group>"; };
+		E080A86628913C1E0065C513 /* SofiaSansExtraCond-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Black.ttf"; sourceTree = "<group>"; };
+		E080A86728913C1E0065C513 /* SofiaSansSemiCond-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A86828913C1E0065C513 /* SofiaSans-HairLineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-HairLineItalic.ttf"; sourceTree = "<group>"; };
+		E080A86928913C1E0065C513 /* SofiaSansCond-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E080A86A28913C1E0065C513 /* SofiaSansExtraCond-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E080A86B28913C1E0065C513 /* SofiaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Italic.ttf"; sourceTree = "<group>"; };
+		E080A86C28913C1E0065C513 /* SofiaSansSemiCond-HairLineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-HairLineItalic.ttf"; sourceTree = "<group>"; };
+		E080A86D28913C1E0065C513 /* SofiaSansExtraCond-HairLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-HairLine.ttf"; sourceTree = "<group>"; };
+		E080A86E28913C1E0065C513 /* SofiaSansCond-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A86F28913C1E0065C513 /* SofiaSansExtraCond-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Thin.ttf"; sourceTree = "<group>"; };
+		E080A87028913C1E0065C513 /* qaSofiaExtraCond-04.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaExtraCond-04.md"; sourceTree = "<group>"; };
+		E080A87128913C1E0065C513 /* SofiaSansExtraCond-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-SemiBold.ttf"; sourceTree = "<group>"; };
+		E080A87228913C1E0065C513 /* SofiaSansSemiCond-ExtraBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraBlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A87328913C1E0065C513 /* SofiaSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A87428913C1E0065C513 /* SofiaSansCond-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A87528913C1E0065C513 /* qaSofiaSemiCond-04.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofiaSemiCond-04.md"; sourceTree = "<group>"; };
+		E080A87628913C1E0065C513 /* SofiaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Medium.ttf"; sourceTree = "<group>"; };
+		E080A87728913C1E0065C513 /* SofiaSansExtraCond-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Bold.ttf"; sourceTree = "<group>"; };
+		E080A87828913C1E0065C513 /* SofiaSansCond-ExtraBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraBlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A87928913C1E0065C513 /* SofiaSansExtraCond-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Light.ttf"; sourceTree = "<group>"; };
+		E080A87A28913C1E0065C513 /* SofiaSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E080A87B28913C1E0065C513 /* SofiaSansExtraCond-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E080A87C28913C1E0065C513 /* SofiaSansSemiCond-ExtraBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraBlack.ttf"; sourceTree = "<group>"; };
+		E080A87D28913C1E0065C513 /* SofiaSansExtraCond-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E080A87E28913C1E0065C513 /* SofiaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E080A87F28913C1E0065C513 /* SofiaSansCond-HairLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-HairLine.ttf"; sourceTree = "<group>"; };
+		E080A88028913C1E0065C513 /* SofiaSansSemiCond-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A88128913C1E0065C513 /* SofiaSans-HairLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-HairLine.ttf"; sourceTree = "<group>"; };
+		E080A88228913C1E0065C513 /* SofiaSansCond-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Black.ttf"; sourceTree = "<group>"; };
+		E080A88328913C1E0065C513 /* SofiaSansSemiCond-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Medium.ttf"; sourceTree = "<group>"; };
+		E080A88428913C1E0065C513 /* SofiaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A88528913C1E0065C513 /* SofiaSansCond-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Medium.ttf"; sourceTree = "<group>"; };
+		E080A88628913C1E0065C513 /* SofiaSansCond-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-SemiBold.ttf"; sourceTree = "<group>"; };
+		E080A88728913C1E0065C513 /* qaSofia-static-08.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "qaSofia-static-08.md"; sourceTree = "<group>"; };
+		E080A88828913C1E0065C513 /* SofiaSansSemiCond-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Thin.ttf"; sourceTree = "<group>"; };
+		E080A88928913C1E0065C513 /* SofiaSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E080A88A28913C1E0065C513 /* SofiaSansCond-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E080A88B28913C1E0065C513 /* SofiaSansExtraCond-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-Medium.ttf"; sourceTree = "<group>"; };
+		E080A88C28913C1E0065C513 /* SofiaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E080A88D28913C1E0065C513 /* SofiaSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E080A88E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraBlackItalic.ttf"; sourceTree = "<group>"; };
+		E080A88F28913C1E0065C513 /* SofiaSansCond-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E080A89028913C1E0065C513 /* SofiaSansExtraCond-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A89128913C1E0065C513 /* SofiaSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Black.ttf"; sourceTree = "<group>"; };
+		E080A89228913C1E0065C513 /* SofiaSansSemiCond-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Bold.ttf"; sourceTree = "<group>"; };
+		E080A89328913C1E0065C513 /* SofiaSansCond-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-LightItalic.ttf"; sourceTree = "<group>"; };
+		E080A89428913C1E0065C513 /* SofiaSansSemiCond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Regular.ttf"; sourceTree = "<group>"; };
+		E080A89528913C1E0065C513 /* SofiaSansSemiCond-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-Black.ttf"; sourceTree = "<group>"; };
+		E080A89628913C1E0065C513 /* SofiaSansCond-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E080A89728913C1E0065C513 /* SofiaSansCond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-Regular.ttf"; sourceTree = "<group>"; };
+		E080A89828913C1E0065C513 /* SofiaSansExtraCond-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E080A89928913C1E0065C513 /* SofiaSansCond-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansCond-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E080A89A28913C1E0065C513 /* SofiaSansExtraCond-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansExtraCond-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E080A89B28913C1E0065C513 /* SofiaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		E080A89C28913C1E0065C513 /* SofiaSansSemiCond-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansSemiCond-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E080A89D28913C1E0065C513 /* SofiaSansPictograms-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSansPictograms-Regular.ttf"; sourceTree = "<group>"; };
+		E080A89E28913C1E0065C513 /* SofiaSans[wdth,wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans[wdth,wght].ttf"; sourceTree = "<group>"; };
+		E080A89F28913C1E0065C513 /* SofiaSans-Italic[wdth,wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SofiaSans-Italic[wdth,wght].ttf"; sourceTree = "<group>"; };
+		E080A907289170630065C513 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		E080A9092891709D0065C513 /* Parent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Parent.xib; sourceTree = "<group>"; };
+		E080A90B28917C880065C513 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		E080A90D28917C9C0065C513 /* Child.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Child.xib; sourceTree = "<group>"; };
+		E0F52CE8289A52DF00EC6425 /* PushController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushController.swift; sourceTree = "<group>"; };
+		E0F52CEA289A71D300EC6425 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		E0F52CEB289A71D300EC6425 /* ParentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05344EA28902B5400DBD802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E022E1152893D519005EB3F0 /* Alamofire in Frameworks */,
+				E080A82828911BFC0065C513 /* IQKeyboardManagerSwift in Frameworks */,
+				E080A82B28911C4D0065C513 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0149848289A996D00B4CC9D /* CameraSettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0149849289A999E00B4CC9D /* CameraViewController.swift */,
+				E014984A289A999E00B4CC9D /* CameraViewController.xib */,
+			);
+			path = CameraSettingScreen;
+			sourceTree = "<group>";
+		};
+		E014984D289A9B6B00B4CC9D /* Report ProblrmScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E014984E289A9BCB00B4CC9D /* ReportProblemViewController.swift */,
+				E014984F289A9BCB00B4CC9D /* ReportProblemViewController.xib */,
+			);
+			path = "Report ProblrmScreen";
+			sourceTree = "<group>";
+		};
+		E01EAAF1289C00B80021CBEF /* AllDeviceScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0587BE32899067F0077430E /* DeviceViewController.xib */,
+				E0587BE22899067F0077430E /* DeviceViewController.swift */,
+			);
+			path = AllDeviceScreen;
+			sourceTree = "<group>";
+		};
+		E022E1002893B096005EB3F0 /* LetsStartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E04F66742892A5D00036BCFF /* LetsStartViewController.swift */,
+				E04F66752892A5D00036BCFF /* LetsStartViewController.xib */,
+			);
+			path = LetsStartScreen;
+			sourceTree = "<group>";
+		};
+		E022E1012893BDA2005EB3F0 /* Common Methods */ = {
+			isa = PBXGroup;
+			children = (
+				E022E1022893BDDC005EB3F0 /* CommonMethod.swift */,
+			);
+			path = "Common Methods";
+			sourceTree = "<group>";
+		};
+		E04540552897FD91000598E3 /* DiscoverableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E04540562897FDD4000598E3 /* DiscoverableViewController.swift */,
+				E04540572897FDD4000598E3 /* DiscoverableViewController.xib */,
+			);
+			path = DiscoverableScreen;
+			sourceTree = "<group>";
+		};
+		E0477B662893E67800FF8DDD /* ScannerSceen */ = {
+			isa = PBXGroup;
+			children = (
+				E0477B6F2893F0A800FF8DDD /* ScanerViewController.swift */,
+				E0477B702893F0A800FF8DDD /* ScanerViewController.xib */,
+			);
+			path = ScannerSceen;
+			sourceTree = "<group>";
+		};
+		E0477B672893E9D200FF8DDD /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				E0477B692893EA2F00FF8DDD /* ScannerView.swift */,
+				E0477B6D2893EA9100FF8DDD /* ScannerView.xib */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		E0477B7528940DDD00FF8DDD /* LetsStart */ = {
+			isa = PBXGroup;
+			children = (
+				E080A907289170630065C513 /* Parent.swift */,
+				E080A9092891709D0065C513 /* Parent.xib */,
+				E080A90B28917C880065C513 /* Child.swift */,
+				E080A90D28917C9C0065C513 /* Child.xib */,
+				E0477B762894122C00FF8DDD /* CaustomAlert.swift */,
+				E0477B782894124900FF8DDD /* CaustomAlert.xib */,
+				E04540502897EC50000598E3 /* PairedAlert.swift */,
+				E04540522897EC63000598E3 /* PairedAlert.xib */,
+			);
+			path = LetsStart;
+			sourceTree = "<group>";
+		};
+		E0521E55289CF5BB0016B976 /* QR Code */ = {
+			isa = PBXGroup;
+			children = (
+				E0521E56289CF5E00016B976 /* QRViewController.swift */,
+				E0521E57289CF5E00016B976 /* QRViewController.xib */,
+			);
+			path = "QR Code";
+			sourceTree = "<group>";
+		};
+		E0521E5A289CF66C0016B976 /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				E0521E5B289CF6A00016B976 /* QRView.swift */,
+				E0521E5D289CF6AF0016B976 /* QRView.xib */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		E05344E428902B5400DBD802 = {
+			isa = PBXGroup;
+			children = (
+				E05344EF28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка */,
+				E05344EE28902B5400DBD802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05344EE28902B5400DBD802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05344ED28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05344EF28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка */ = {
+			isa = PBXGroup;
+			children = (
+				E080A83628913C1E0065C513 /* ttf */,
+				E053450C28902EA400DBD802 /* ApplicationLayer */,
+				E0672DDF28981B7000F43656 /* BussinessLogics */,
+				E0672DDE28981AF900F43656 /* Utility */,
+				E053450428902D5A00DBD802 /* NetworkingLayer */,
+				E053450D28902EDC00DBD802 /* Architecture */,
+				E05344F928902B5500DBD802 /* Assets.xcassets */,
+				E05344FE28902B5500DBD802 /* Info.plist */,
+			);
+			path = "aby monitor Saby + Cry Alarm - Разработка";
+			sourceTree = "<group>";
+		};
+		E053450428902D5A00DBD802 /* NetworkingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E053450528902D8D00DBD802 /* ApiManager.swift */,
+				E053450628902D8D00DBD802 /* BaseResponse.swift */,
+			);
+			path = NetworkingLayer;
+			sourceTree = "<group>";
+		};
+		E053450928902E5600DBD802 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0477B732893FBBC00FF8DDD /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E053450A28902E6F00DBD802 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				E045404E2897E78D000598E3 /* ActivityViewController+Extention.swift */,
+				E0672DD728980E3500F43656 /* Navigation+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		E053450C28902EA400DBD802 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E05344F228902B5400DBD802 /* SceneDelegate.swift */,
+				E05344F028902B5400DBD802 /* AppDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		E053450D28902EDC00DBD802 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				E053451028902F2700DBD802 /* Model */,
+				E053450F28902F1C00DBD802 /* View */,
+				E053450E28902F0900DBD802 /* Controller */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		E053450E28902F0900DBD802 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0521E55289CF5BB0016B976 /* QR Code */,
+				E04540552897FD91000598E3 /* DiscoverableScreen */,
+				E0477B662893E67800FF8DDD /* ScannerSceen */,
+				E0587BF3289939C60077430E /* SettingScreens */,
+				E0587BE1289906520077430E /* DeviceScren */,
+				E022E1002893B096005EB3F0 /* LetsStartScreen */,
+				E0672DD92898127200F43656 /* MainTabViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E053450F28902F1C00DBD802 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E053451228902F6100DBD802 /* xib */,
+				E053451128902F5500DBD802 /* Cell */,
+				E05344FB28902B5500DBD802 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E053451028902F2700DBD802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0587BFC2899512F0077430E /* SettingTableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E053451128902F5500DBD802 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E0587BEF2899253A0077430E /* DeviceCollectionViewCell.swift */,
+				E0587BF02899253A0077430E /* DeviceCollectionViewCell.xib */,
+				E0587BF8289947CA0077430E /* SettingTableViewCell.swift */,
+				E0587BF9289947CA0077430E /* SettingTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E053451228902F6100DBD802 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				E0521E5A289CF66C0016B976 /* QRcode */,
+				E0587BE6289907B60077430E /* NavBar */,
+				E0477B7528940DDD00FF8DDD /* LetsStart */,
+				E0477B672893E9D200FF8DDD /* Scanner */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		E0587BE1289906520077430E /* DeviceScren */ = {
+			isa = PBXGroup;
+			children = (
+				E01EAAF1289C00B80021CBEF /* AllDeviceScreen */,
+				E01EAAF2289C010D0021CBEF /* AddNewDeviceVC.swift */,
+				E01EAAF3289C010D0021CBEF /* AddNewDeviceVC.xib */,
+			);
+			path = DeviceScren;
+			sourceTree = "<group>";
+		};
+		E0587BE6289907B60077430E /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				E0587BEB289908A80077430E /* NavigationView.swift */,
+				E0587BED289908BA0077430E /* NavigationView.xib */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		E0587BF3289939C60077430E /* SettingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E014984D289A9B6B00B4CC9D /* Report ProblrmScreen */,
+				E0F52CE5289A4BFB00EC6425 /* BabyStationScreen */,
+				E0F52CE4289A4BDD00EC6425 /* Parent's StationScreen */,
+				E0587BFE289967670077430E /* NotificationScreen */,
+				E0587BF428993A0A0077430E /* SettingViewController.swift */,
+				E0587BF528993A0A0077430E /* SettingViewController.xib */,
+			);
+			path = SettingScreens;
+			sourceTree = "<group>";
+		};
+		E0587BFE289967670077430E /* NotificationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0587BFF289969020077430E /* NotificationViewController.swift */,
+				E0587C00289969020077430E /* NotificationViewController.xib */,
+			);
+			path = NotificationScreen;
+			sourceTree = "<group>";
+		};
+		E0672DD92898127200F43656 /* MainTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0672DDA2898134400F43656 /* MainViewController.swift */,
+				E0672DDB2898134400F43656 /* MainViewController.xib */,
+			);
+			path = MainTabViewController;
+			sourceTree = "<group>";
+		};
+		E0672DDE28981AF900F43656 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E053450928902E5600DBD802 /* Constants */,
+				E053450A28902E6F00DBD802 /* Extention */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E0672DDF28981B7000F43656 /* BussinessLogics */ = {
+			isa = PBXGroup;
+			children = (
+				E0F52CE7289A52A300EC6425 /* Push Controller */,
+				E080A834289121840065C513 /* Helper.swift */,
+				E022E1012893BDA2005EB3F0 /* Common Methods */,
+			);
+			path = BussinessLogics;
+			sourceTree = "<group>";
+		};
+		E080A83628913C1E0065C513 /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+				E080A83728913C1E0065C513 /* qaSofia-vfroman-15.md */,
+				E080A83828913C1E0065C513 /* qa-assessment */,
+				E080A83F28913C1E0065C513 /* qaSofia-vfitalics-03.md */,
+				E080A84028913C1E0065C513 /* static */,
+				E080A89D28913C1E0065C513 /* SofiaSansPictograms-Regular.ttf */,
+				E080A89E28913C1E0065C513 /* SofiaSans[wdth,wght].ttf */,
+				E080A89F28913C1E0065C513 /* SofiaSans-Italic[wdth,wght].ttf */,
+			);
+			path = ttf;
+			sourceTree = "<group>";
+		};
+		E080A83828913C1E0065C513 /* qa-assessment */ = {
+			isa = PBXGroup;
+			children = (
+				E080A83928913C1E0065C513 /* qaSofia-vfitalics-assessment.md */,
+				E080A83A28913C1E0065C513 /* qaSofiaSansSemiCond-assessment.md */,
+				E080A83B28913C1E0065C513 /* qaSofiaSansExtraCond-assessment.md */,
+				E080A83C28913C1E0065C513 /* qaSofia-vfroman-assessment.md */,
+				E080A83D28913C1E0065C513 /* qaSofiaSans-assessment.md */,
+				E080A83E28913C1E0065C513 /* qaSofiaSansCond-assessment.md */,
+			);
+			path = "qa-assessment";
+			sourceTree = "<group>";
+		};
+		E080A84028913C1E0065C513 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				E080A84128913C1E0065C513 /* SofiaSans-Bold.ttf */,
+				E080A84228913C1E0065C513 /* SofiaSansSemiCond-SemiBoldItalic.ttf */,
+				E080A84328913C1E0065C513 /* SofiaSansExtraCond-Regular.ttf */,
+				E080A84428913C1E0065C513 /* SofiaSansExtraCond-Italic.ttf */,
+				E080A84528913C1E0065C513 /* SofiaSans-Regular.ttf */,
+				E080A84628913C1E0065C513 /* SofiaSansCond-ExtraBlack.ttf */,
+				E080A84728913C1E0065C513 /* SofiaSansSemiCond-LightItalic.ttf */,
+				E080A84828913C1E0065C513 /* SofiaSansSemiCond-Light.ttf */,
+				E080A84928913C1E0065C513 /* SofiaSans-Light.ttf */,
+				E080A84A28913C1E0065C513 /* SofiaSans-SemiBoldItalic.ttf */,
+				E080A84B28913C1E0065C513 /* SofiaSansCond-Thin.ttf */,
+				E080A84C28913C1E0065C513 /* SofiaSansSemiCond-Italic.ttf */,
+				E080A84D28913C1E0065C513 /* SofiaSansCond-Italic.ttf */,
+				E080A84E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlack.ttf */,
+				E080A84F28913C1E0065C513 /* qaSofiaCond-03.md */,
+				E080A85028913C1E0065C513 /* SofiaSansCond-Light.ttf */,
+				E080A85128913C1E0065C513 /* SofiaSans-ExtraBlackItalic.ttf */,
+				E080A85228913C1E0065C513 /* SofiaSansCond-Bold.ttf */,
+				E080A85328913C1E0065C513 /* SofiaSansExtraCond-ExtraBoldItalic.ttf */,
+				E080A85428913C1E0065C513 /* SofiaSansExtraCond-LightItalic.ttf */,
+				E080A85528913C1E0065C513 /* SofiaSansExtraCond-SemiBoldItalic.ttf */,
+				E080A85628913C1E0065C513 /* SofiaSans-ExtraBlack.ttf */,
+				E080A85728913C1E0065C513 /* SofiaSansCond-SemiBoldItalic.ttf */,
+				E080A85828913C1E0065C513 /* SofiaSans-Thin.ttf */,
+				E080A85928913C1E0065C513 /* SofiaSansSemiCond-BoldItalic.ttf */,
+				E080A85A28913C1E0065C513 /* SofiaSansCond-ExtraBold.ttf */,
+				E080A85B28913C1E0065C513 /* SofiaSansSemiCond-ExtraBold.ttf */,
+				E080A85C28913C1E0065C513 /* SofiaSansCond-HairLineItalic.ttf */,
+				E080A85D28913C1E0065C513 /* SofiaSansSemiCond-HairLine.ttf */,
+				E080A85E28913C1E0065C513 /* SofiaSansSemiCond-MediumItalic.ttf */,
+				E080A85F28913C1E0065C513 /* SofiaSansExtraCond-HairLineItalic.ttf */,
+				E080A86028913C1E0065C513 /* SofiaSans-ExtraLightItalic.ttf */,
+				E080A86128913C1E0065C513 /* SofiaSans-ExtraBoldItalic.ttf */,
+				E080A86228913C1E0065C513 /* SofiaSansExtraCond-BlackItalic.ttf */,
+				E080A86328913C1E0065C513 /* SofiaSansSemiCond-ExtraLight.ttf */,
+				E080A86428913C1E0065C513 /* SofiaSansSemiCond-ThinItalic.ttf */,
+				E080A86528913C1E0065C513 /* SofiaSansSemiCond-SemiBold.ttf */,
+				E080A86628913C1E0065C513 /* SofiaSansExtraCond-Black.ttf */,
+				E080A86728913C1E0065C513 /* SofiaSansSemiCond-BlackItalic.ttf */,
+				E080A86828913C1E0065C513 /* SofiaSans-HairLineItalic.ttf */,
+				E080A86928913C1E0065C513 /* SofiaSansCond-MediumItalic.ttf */,
+				E080A86A28913C1E0065C513 /* SofiaSansExtraCond-ExtraBold.ttf */,
+				E080A86B28913C1E0065C513 /* SofiaSans-Italic.ttf */,
+				E080A86C28913C1E0065C513 /* SofiaSansSemiCond-HairLineItalic.ttf */,
+				E080A86D28913C1E0065C513 /* SofiaSansExtraCond-HairLine.ttf */,
+				E080A86E28913C1E0065C513 /* SofiaSansCond-BlackItalic.ttf */,
+				E080A86F28913C1E0065C513 /* SofiaSansExtraCond-Thin.ttf */,
+				E080A87028913C1E0065C513 /* qaSofiaExtraCond-04.md */,
+				E080A87128913C1E0065C513 /* SofiaSansExtraCond-SemiBold.ttf */,
+				E080A87228913C1E0065C513 /* SofiaSansSemiCond-ExtraBlackItalic.ttf */,
+				E080A87328913C1E0065C513 /* SofiaSans-BlackItalic.ttf */,
+				E080A87428913C1E0065C513 /* SofiaSansCond-ExtraBoldItalic.ttf */,
+				E080A87528913C1E0065C513 /* qaSofiaSemiCond-04.md */,
+				E080A87628913C1E0065C513 /* SofiaSans-Medium.ttf */,
+				E080A87728913C1E0065C513 /* SofiaSansExtraCond-Bold.ttf */,
+				E080A87828913C1E0065C513 /* SofiaSansCond-ExtraBlackItalic.ttf */,
+				E080A87928913C1E0065C513 /* SofiaSansExtraCond-Light.ttf */,
+				E080A87A28913C1E0065C513 /* SofiaSans-MediumItalic.ttf */,
+				E080A87B28913C1E0065C513 /* SofiaSansExtraCond-ExtraLightItalic.ttf */,
+				E080A87C28913C1E0065C513 /* SofiaSansSemiCond-ExtraBlack.ttf */,
+				E080A87D28913C1E0065C513 /* SofiaSansExtraCond-MediumItalic.ttf */,
+				E080A87E28913C1E0065C513 /* SofiaSans-ExtraBold.ttf */,
+				E080A87F28913C1E0065C513 /* SofiaSansCond-HairLine.ttf */,
+				E080A88028913C1E0065C513 /* SofiaSansSemiCond-ExtraBoldItalic.ttf */,
+				E080A88128913C1E0065C513 /* SofiaSans-HairLine.ttf */,
+				E080A88228913C1E0065C513 /* SofiaSansCond-Black.ttf */,
+				E080A88328913C1E0065C513 /* SofiaSansSemiCond-Medium.ttf */,
+				E080A88428913C1E0065C513 /* SofiaSans-BoldItalic.ttf */,
+				E080A88528913C1E0065C513 /* SofiaSansCond-Medium.ttf */,
+				E080A88628913C1E0065C513 /* SofiaSansCond-SemiBold.ttf */,
+				E080A88728913C1E0065C513 /* qaSofia-static-08.md */,
+				E080A88828913C1E0065C513 /* SofiaSansSemiCond-Thin.ttf */,
+				E080A88928913C1E0065C513 /* SofiaSans-ThinItalic.ttf */,
+				E080A88A28913C1E0065C513 /* SofiaSansCond-ExtraLightItalic.ttf */,
+				E080A88B28913C1E0065C513 /* SofiaSansExtraCond-Medium.ttf */,
+				E080A88C28913C1E0065C513 /* SofiaSans-SemiBold.ttf */,
+				E080A88D28913C1E0065C513 /* SofiaSans-ExtraLight.ttf */,
+				E080A88E28913C1E0065C513 /* SofiaSansExtraCond-ExtraBlackItalic.ttf */,
+				E080A88F28913C1E0065C513 /* SofiaSansCond-ThinItalic.ttf */,
+				E080A89028913C1E0065C513 /* SofiaSansExtraCond-BoldItalic.ttf */,
+				E080A89128913C1E0065C513 /* SofiaSans-Black.ttf */,
+				E080A89228913C1E0065C513 /* SofiaSansSemiCond-Bold.ttf */,
+				E080A89328913C1E0065C513 /* SofiaSansCond-LightItalic.ttf */,
+				E080A89428913C1E0065C513 /* SofiaSansSemiCond-Regular.ttf */,
+				E080A89528913C1E0065C513 /* SofiaSansSemiCond-Black.ttf */,
+				E080A89628913C1E0065C513 /* SofiaSansCond-ExtraLight.ttf */,
+				E080A89728913C1E0065C513 /* SofiaSansCond-Regular.ttf */,
+				E080A89828913C1E0065C513 /* SofiaSansExtraCond-ExtraLight.ttf */,
+				E080A89928913C1E0065C513 /* SofiaSansCond-BoldItalic.ttf */,
+				E080A89A28913C1E0065C513 /* SofiaSansExtraCond-ThinItalic.ttf */,
+				E080A89B28913C1E0065C513 /* SofiaSans-LightItalic.ttf */,
+				E080A89C28913C1E0065C513 /* SofiaSansSemiCond-ExtraLightItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		E0F52CE4289A4BDD00EC6425 /* Parent's StationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0F52CEA289A71D300EC6425 /* ParentViewController.swift */,
+				E0F52CEB289A71D300EC6425 /* ParentViewController.xib */,
+			);
+			path = "Parent's StationScreen";
+			sourceTree = "<group>";
+		};
+		E0F52CE5289A4BFB00EC6425 /* BabyStationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0149848289A996D00B4CC9D /* CameraSettingScreen */,
+				E0149844289A849400B4CC9D /* BabyViewController.swift */,
+				E0149845289A849400B4CC9D /* BabyViewController.xib */,
+			);
+			path = BabyStationScreen;
+			sourceTree = "<group>";
+		};
+		E0F52CE7289A52A300EC6425 /* Push Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0F52CE8289A52DF00EC6425 /* PushController.swift */,
+				E0149852289AAE9200B4CC9D /* SwipeViewController.swift */,
+			);
+			path = "Push Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05344EC28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E053450128902B5500DBD802 /* Build configuration list for PBXNativeTarget "aby monitor Saby + Cry Alarm - Разработка" */;
+			buildPhases = (
+				E05344E928902B5400DBD802 /* Sources */,
+				E05344EA28902B5400DBD802 /* Frameworks */,
+				E05344EB28902B5400DBD802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aby monitor Saby + Cry Alarm - Разработка";
+			packageProductDependencies = (
+				E080A82728911BFC0065C513 /* IQKeyboardManagerSwift */,
+				E080A82A28911C4D0065C513 /* Alamofire */,
+				E022E1142893D519005EB3F0 /* Alamofire */,
+			);
+			productName = "aby monitor Saby + Cry Alarm - Разработка";
+			productReference = E05344ED28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05344E528902B5400DBD802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E05344EC28902B5400DBD802 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E05344E828902B5400DBD802 /* Build configuration list for PBXProject "aby monitor Saby + Cry Alarm - Разработка" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05344E428902B5400DBD802;
+			packageReferences = (
+				E080A82628911BFC0065C513 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E080A82928911C4D0065C513 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E022E1132893D519005EB3F0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = E05344EE28902B5400DBD802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05344EC28902B5400DBD802 /* aby monitor Saby + Cry Alarm - Разработка */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05344EB28902B5400DBD802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0477B6E2893EA9100FF8DDD /* ScannerView.xib in Resources */,
+				E080A8F228913C1E0065C513 /* SofiaSansExtraCond-Medium.ttf in Resources */,
+				E080A8AF28913C1E0065C513 /* SofiaSansSemiCond-Light.ttf in Resources */,
+				E080A8D028913C1E0065C513 /* SofiaSansCond-MediumItalic.ttf in Resources */,
+				E080A8E628913C1E0065C513 /* SofiaSansCond-HairLine.ttf in Resources */,
+				E0587BFB289947CA0077430E /* SettingTableViewCell.xib in Resources */,
+				E080A8F828913C1E0065C513 /* SofiaSans-Black.ttf in Resources */,
+				E0587BEE289908BA0077430E /* NavigationView.xib in Resources */,
+				E0149851289A9BCB00B4CC9D /* ReportProblemViewController.xib in Resources */,
+				E080A8A128913C1E0065C513 /* qaSofia-vfitalics-assessment.md in Resources */,
+				E080A8C228913C1E0065C513 /* SofiaSansSemiCond-ExtraBold.ttf in Resources */,
+				E080A8C328913C1E0065C513 /* SofiaSansCond-HairLineItalic.ttf in Resources */,
+				E080A8BC28913C1E0065C513 /* SofiaSansExtraCond-SemiBoldItalic.ttf in Resources */,
+				E080A8ED28913C1E0065C513 /* SofiaSansCond-SemiBold.ttf in Resources */,
+				E080A8EB28913C1E0065C513 /* SofiaSans-BoldItalic.ttf in Resources */,
+				E080A90228913C1E0065C513 /* SofiaSans-LightItalic.ttf in Resources */,
+				E080A90528913C1E0065C513 /* SofiaSans[wdth,wght].ttf in Resources */,
+				E080A8BB28913C1E0065C513 /* SofiaSansExtraCond-LightItalic.ttf in Resources */,
+				E080A8B528913C1E0065C513 /* SofiaSansExtraCond-ExtraBlack.ttf in Resources */,
+				E080A8AD28913C1E0065C513 /* SofiaSansCond-ExtraBlack.ttf in Resources */,
+				E080A8F528913C1E0065C513 /* SofiaSansExtraCond-ExtraBlackItalic.ttf in Resources */,
+				E080A8B328913C1E0065C513 /* SofiaSansSemiCond-Italic.ttf in Resources */,
+				E080A8F728913C1E0065C513 /* SofiaSansExtraCond-BoldItalic.ttf in Resources */,
+				E080A90128913C1E0065C513 /* SofiaSansExtraCond-ThinItalic.ttf in Resources */,
+				E080A8E428913C1E0065C513 /* SofiaSansExtraCond-MediumItalic.ttf in Resources */,
+				E0521E59289CF5E00016B976 /* QRViewController.xib in Resources */,
+				E0587BF728993A0A0077430E /* SettingViewController.xib in Resources */,
+				E0477B722893F0A800FF8DDD /* ScanerViewController.xib in Resources */,
+				E080A8EC28913C1E0065C513 /* SofiaSansCond-Medium.ttf in Resources */,
+				E080A8F628913C1E0065C513 /* SofiaSansCond-ThinItalic.ttf in Resources */,
+				E0149847289A849400B4CC9D /* BabyViewController.xib in Resources */,
+				E080A8B228913C1E0065C513 /* SofiaSansCond-Thin.ttf in Resources */,
+				E01EAAF5289C010D0021CBEF /* AddNewDeviceVC.xib in Resources */,
+				E080A8EF28913C1E0065C513 /* SofiaSansSemiCond-Thin.ttf in Resources */,
+				E080A8DD28913C1E0065C513 /* SofiaSans-Medium.ttf in Resources */,
+				E080A8D428913C1E0065C513 /* SofiaSansExtraCond-HairLine.ttf in Resources */,
+				E04540532897EC63000598E3 /* PairedAlert.xib in Resources */,
+				E080A90428913C1E0065C513 /* SofiaSansPictograms-Regular.ttf in Resources */,
+				E080A8DB28913C1E0065C513 /* SofiaSansCond-ExtraBoldItalic.ttf in Resources */,
+				E080A8B628913C1E0065C513 /* qaSofiaCond-03.md in Resources */,
+				E080A8A428913C1E0065C513 /* qaSofia-vfroman-assessment.md in Resources */,
+				E080A8FB28913C1E0065C513 /* SofiaSansSemiCond-Regular.ttf in Resources */,
+				E080A8F328913C1E0065C513 /* SofiaSans-SemiBold.ttf in Resources */,
+				E080A8D828913C1E0065C513 /* SofiaSansExtraCond-SemiBold.ttf in Resources */,
+				E080A8D528913C1E0065C513 /* SofiaSansCond-BlackItalic.ttf in Resources */,
+				E080A8C828913C1E0065C513 /* SofiaSans-ExtraBoldItalic.ttf in Resources */,
+				E080A8C028913C1E0065C513 /* SofiaSansSemiCond-BoldItalic.ttf in Resources */,
+				E080A8F428913C1E0065C513 /* SofiaSans-ExtraLight.ttf in Resources */,
+				E080A8CE28913C1E0065C513 /* SofiaSansSemiCond-BlackItalic.ttf in Resources */,
+				E0587C02289969020077430E /* NotificationViewController.xib in Resources */,
+				E080A8C628913C1E0065C513 /* SofiaSansExtraCond-HairLineItalic.ttf in Resources */,
+				E0672DDD2898134400F43656 /* MainViewController.xib in Resources */,
+				E080A8A628913C1E0065C513 /* qaSofiaSansCond-assessment.md in Resources */,
+				E080A8FE28913C1E0065C513 /* SofiaSansCond-Regular.ttf in Resources */,
+				E080A8D628913C1E0065C513 /* SofiaSansExtraCond-Thin.ttf in Resources */,
+				E04540542897F2F9000598E3 /* Assets.xcassets in Resources */,
+				E0587BF22899253A0077430E /* DeviceCollectionViewCell.xib in Resources */,
+				E080A90028913C1E0065C513 /* SofiaSansCond-BoldItalic.ttf in Resources */,
+				E080A8B828913C1E0065C513 /* SofiaSans-ExtraBlackItalic.ttf in Resources */,
+				E080A8A828913C1E0065C513 /* SofiaSans-Bold.ttf in Resources */,
+				E080A8FF28913C1E0065C513 /* SofiaSansExtraCond-ExtraLight.ttf in Resources */,
+				E080A8A528913C1E0065C513 /* qaSofiaSans-assessment.md in Resources */,
+				E080A8F028913C1E0065C513 /* SofiaSans-ThinItalic.ttf in Resources */,
+				E080A8BD28913C1E0065C513 /* SofiaSans-ExtraBlack.ttf in Resources */,
+				E080A8C728913C1E0065C513 /* SofiaSans-ExtraLightItalic.ttf in Resources */,
+				E080A8E528913C1E0065C513 /* SofiaSans-ExtraBold.ttf in Resources */,
+				E080A8E928913C1E0065C513 /* SofiaSansCond-Black.ttf in Resources */,
+				E0F52CED289A71D300EC6425 /* ParentViewController.xib in Resources */,
+				E080A8CD28913C1E0065C513 /* SofiaSansExtraCond-Black.ttf in Resources */,
+				E05344FD28902B5500DBD802 /* LaunchScreen.storyboard in Resources */,
+				E080A8CA28913C1E0065C513 /* SofiaSansSemiCond-ExtraLight.ttf in Resources */,
+				E080A90A2891709D0065C513 /* Parent.xib in Resources */,
+				E080A8CB28913C1E0065C513 /* SofiaSansSemiCond-ThinItalic.ttf in Resources */,
+				E080A8A228913C1E0065C513 /* qaSofiaSansSemiCond-assessment.md in Resources */,
+				E080A8F928913C1E0065C513 /* SofiaSansSemiCond-Bold.ttf in Resources */,
+				E080A8DF28913C1E0065C513 /* SofiaSansCond-ExtraBlackItalic.ttf in Resources */,
+				E080A8C428913C1E0065C513 /* SofiaSansSemiCond-HairLine.ttf in Resources */,
+				E0587BE52899067F0077430E /* DeviceViewController.xib in Resources */,
+				E080A8CF28913C1E0065C513 /* SofiaSans-HairLineItalic.ttf in Resources */,
+				E080A8DE28913C1E0065C513 /* SofiaSansExtraCond-Bold.ttf in Resources */,
+				E080A8BF28913C1E0065C513 /* SofiaSans-Thin.ttf in Resources */,
+				E080A8E128913C1E0065C513 /* SofiaSans-MediumItalic.ttf in Resources */,
+				E0521E5E289CF6AF0016B976 /* QRView.xib in Resources */,
+				E080A8FC28913C1E0065C513 /* SofiaSansSemiCond-Black.ttf in Resources */,
+				E080A8AC28913C1E0065C513 /* SofiaSans-Regular.ttf in Resources */,
+				E080A8C928913C1E0065C513 /* SofiaSansExtraCond-BlackItalic.ttf in Resources */,
+				E080A8BE28913C1E0065C513 /* SofiaSansCond-SemiBoldItalic.ttf in Resources */,
+				E080A90E28917C9C0065C513 /* Child.xib in Resources */,
+				E080A8C128913C1E0065C513 /* SofiaSansCond-ExtraBold.ttf in Resources */,
+				E080A90628913C1E0065C513 /* SofiaSans-Italic[wdth,wght].ttf in Resources */,
+				E080A8FA28913C1E0065C513 /* SofiaSansCond-LightItalic.ttf in Resources */,
+				E080A8C528913C1E0065C513 /* SofiaSansSemiCond-MediumItalic.ttf in Resources */,
+				E080A8A028913C1E0065C513 /* qaSofia-vfroman-15.md in Resources */,
+				E080A8B128913C1E0065C513 /* SofiaSans-SemiBoldItalic.ttf in Resources */,
+				E080A90328913C1E0065C513 /* SofiaSansSemiCond-ExtraLightItalic.ttf in Resources */,
+				E080A8E828913C1E0065C513 /* SofiaSans-HairLine.ttf in Resources */,
+				E080A8D728913C1E0065C513 /* qaSofiaExtraCond-04.md in Resources */,
+				E014984C289A999F00B4CC9D /* CameraViewController.xib in Resources */,
+				E080A8B028913C1E0065C513 /* SofiaSans-Light.ttf in Resources */,
+				E080A8E028913C1E0065C513 /* SofiaSansExtraCond-Light.ttf in Resources */,
+				E080A8FD28913C1E0065C513 /* SofiaSansCond-ExtraLight.ttf in Resources */,
+				E080A8DA28913C1E0065C513 /* SofiaSans-BlackItalic.ttf in Resources */,
+				E080A8B928913C1E0065C513 /* SofiaSansCond-Bold.ttf in Resources */,
+				E080A8E328913C1E0065C513 /* SofiaSansSemiCond-ExtraBlack.ttf in Resources */,
+				E080A8AB28913C1E0065C513 /* SofiaSansExtraCond-Italic.ttf in Resources */,
+				E080A8F128913C1E0065C513 /* SofiaSansCond-ExtraLightItalic.ttf in Resources */,
+				E080A8AE28913C1E0065C513 /* SofiaSansSemiCond-LightItalic.ttf in Resources */,
+				E04540592897FDD4000598E3 /* DiscoverableViewController.xib in Resources */,
+				E080A8A928913C1E0065C513 /* SofiaSansSemiCond-SemiBoldItalic.ttf in Resources */,
+				E080A8B428913C1E0065C513 /* SofiaSansCond-Italic.ttf in Resources */,
+				E080A8E728913C1E0065C513 /* SofiaSansSemiCond-ExtraBoldItalic.ttf in Resources */,
+				E080A8D328913C1E0065C513 /* SofiaSansSemiCond-HairLineItalic.ttf in Resources */,
+				E0477B792894124900FF8DDD /* CaustomAlert.xib in Resources */,
+				E080A8BA28913C1E0065C513 /* SofiaSansExtraCond-ExtraBoldItalic.ttf in Resources */,
+				E080A8A328913C1E0065C513 /* qaSofiaSansExtraCond-assessment.md in Resources */,
+				E080A8EE28913C1E0065C513 /* qaSofia-static-08.md in Resources */,
+				E080A8AA28913C1E0065C513 /* SofiaSansExtraCond-Regular.ttf in Resources */,
+				E080A8D128913C1E0065C513 /* SofiaSansExtraCond-ExtraBold.ttf in Resources */,
+				E080A8D228913C1E0065C513 /* SofiaSans-Italic.ttf in Resources */,
+				E04F66772892A5D00036BCFF /* LetsStartViewController.xib in Resources */,
+				E080A8DC28913C1E0065C513 /* qaSofiaSemiCond-04.md in Resources */,
+				E080A8B728913C1E0065C513 /* SofiaSansCond-Light.ttf in Resources */,
+				E080A8EA28913C1E0065C513 /* SofiaSansSemiCond-Medium.ttf in Resources */,
+				E080A8A728913C1E0065C513 /* qaSofia-vfitalics-03.md in Resources */,
+				E080A8CC28913C1E0065C513 /* SofiaSansSemiCond-SemiBold.ttf in Resources */,
+				E080A8D928913C1E0065C513 /* SofiaSansSemiCond-ExtraBlackItalic.ttf in Resources */,
+				E080A8E228913C1E0065C513 /* SofiaSansExtraCond-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05344E928902B5400DBD802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E053450828902D8D00DBD802 /* BaseResponse.swift in Sources */,
+				E0F52CE9289A52DF00EC6425 /* PushController.swift in Sources */,
+				E0587BF628993A0A0077430E /* SettingViewController.swift in Sources */,
+				E04F66762892A5D00036BCFF /* LetsStartViewController.swift in Sources */,
+				E0587BEC289908A80077430E /* NavigationView.swift in Sources */,
+				E0521E58289CF5E00016B976 /* QRViewController.swift in Sources */,
+				E0477B712893F0A800FF8DDD /* ScanerViewController.swift in Sources */,
+				E0587BFA289947CA0077430E /* SettingTableViewCell.swift in Sources */,
+				E04540512897EC50000598E3 /* PairedAlert.swift in Sources */,
+				E080A908289170630065C513 /* Parent.swift in Sources */,
+				E022E1032893BDDC005EB3F0 /* CommonMethod.swift in Sources */,
+				E053450728902D8D00DBD802 /* ApiManager.swift in Sources */,
+				E01EAAF4289C010D0021CBEF /* AddNewDeviceVC.swift in Sources */,
+				E0587C01289969020077430E /* NotificationViewController.swift in Sources */,
+				E05344F128902B5400DBD802 /* AppDelegate.swift in Sources */,
+				E0149853289AAE9200B4CC9D /* SwipeViewController.swift in Sources */,
+				E05344F328902B5400DBD802 /* SceneDelegate.swift in Sources */,
+				E014984B289A999E00B4CC9D /* CameraViewController.swift in Sources */,
+				E0477B772894122D00FF8DDD /* CaustomAlert.swift in Sources */,
+				E0672DD828980E3500F43656 /* Navigation+Extention.swift in Sources */,
+				E0587BF12899253A0077430E /* DeviceCollectionViewCell.swift in Sources */,
+				E0521E5C289CF6A00016B976 /* QRView.swift in Sources */,
+				E0149850289A9BCB00B4CC9D /* ReportProblemViewController.swift in Sources */,
+				E04540582897FDD4000598E3 /* DiscoverableViewController.swift in Sources */,
+				E080A835289121840065C513 /* Helper.swift in Sources */,
+				E0587BFD2899512F0077430E /* SettingTableModel.swift in Sources */,
+				E080A90C28917C880065C513 /* Child.swift in Sources */,
+				E045404F2897E78D000598E3 /* ActivityViewController+Extention.swift in Sources */,
+				E0672DDC2898134400F43656 /* MainViewController.swift in Sources */,
+				E0477B6A2893EA2F00FF8DDD /* ScannerView.swift in Sources */,
+				E0149846289A849400B4CC9D /* BabyViewController.swift in Sources */,
+				E0587BE42899067F0077430E /* DeviceViewController.swift in Sources */,
+				E0477B742893FBBC00FF8DDD /* Constant.swift in Sources */,
+				E0F52CEC289A71D300EC6425 /* ParentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E05344FB28902B5500DBD802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05344FC28902B5500DBD802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05344FF28902B5500DBD802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E053450028902B5500DBD802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E053450228902B5500DBD802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4H5C9288H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "aby monitor Saby + Cry Alarm - Разработка/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Library;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appcake.aby-monitor-Saby---Cry-Alarm-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E053450328902B5500DBD802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4H5C9288H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "aby monitor Saby + Cry Alarm - Разработка/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Library;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appcake.aby-monitor-Saby---Cry-Alarm-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05344E828902B5400DBD802 /* Build configuration list for PBXProject "aby monitor Saby + Cry Alarm - Разработка" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05344FF28902B5500DBD802 /* Debug */,
+				E053450028902B5500DBD802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E053450128902B5500DBD802 /* Build configuration list for PBXNativeTarget "aby monitor Saby + Cry Alarm - Разработка" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E053450228902B5500DBD802 /* Debug */,
+				E053450328902B5500DBD802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E022E1132893D519005EB3F0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E080A82628911BFC0065C513 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E080A82928911C4D0065C513 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E022E1142893D519005EB3F0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E080A82928911C4D0065C513 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E080A82728911BFC0065C513 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E080A82628911BFC0065C513 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		E080A82A28911C4D0065C513 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E080A82928911C4D0065C513 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E05344E528902B5400DBD802 /* Project object */;
+}

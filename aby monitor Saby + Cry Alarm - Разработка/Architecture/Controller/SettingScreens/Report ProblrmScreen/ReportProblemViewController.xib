@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-SemiBold.ttf">
+            <string>SofiaSans-SemiBold</string>
+        </array>
+        <array key="SofiaSans[wdth,wght].ttf">
+            <string>SofiaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReportProblemViewController" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextfield" destination="Ulw-fB-QkF" id="hz1-w9-ktP"/>
+                <outlet property="reportSent" destination="blw-9K-2gP" id="ARZ-tT-xry"/>
+                <outlet property="reportTextView" destination="SX6-tG-CId" id="3dJ-cE-Hs7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHB-b4-pOD" customClass="NavigationView" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="24" width="820" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="TWT-gS-4Ew"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nameValue" value="Report a problem"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SX6-tG-CId">
+                    <rect key="frame" x="80" y="138" width="660" height="160"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="129" id="FJE-qZ-sYr">
+                            <variation key="heightClass=regular-widthClass=regular" constant="160"/>
+                        </constraint>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="13"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="23"/>
+                    </variation>
+                </textView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ulw-fB-QkF">
+                    <rect key="frame" x="80" y="321" width="660" height="50"/>
+                    <color key="backgroundColor" name="white"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="sya-7j-Znj">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="13"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="23"/>
+                    </variation>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blw-9K-2gP">
+                    <rect key="frame" x="335" y="401" width="150" height="60"/>
+                    <color key="backgroundColor" name="DARK_GREEN"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="119" id="r9O-SG-UPw">
+                            <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="45" id="uSA-g3-uhl">
+                            <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SofiaSans-SemiBold" family="Sofia Sans" pointSize="17"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" name="white"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="white_1"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SX6-tG-CId" secondAttribute="trailing" constant="20" id="LtX-LX-3wg">
+                    <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                </constraint>
+                <constraint firstItem="blw-9K-2gP" firstAttribute="top" secondItem="Ulw-fB-QkF" secondAttribute="bottom" constant="20" id="WcN-DE-Rd5">
+                    <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                </constraint>
+                <constraint firstItem="blw-9K-2gP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zck-nt-IGR"/>
+                <constraint firstItem="DHB-b4-pOD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="aMO-qy-kGj"/>
+                <constraint firstItem="SX6-tG-CId" firstAttribute="top" secondItem="DHB-b4-pOD" secondAttribute="bottom" constant="16" id="eUk-pn-HZm">
+                    <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                </constraint>
+                <constraint firstItem="SX6-tG-CId" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="j2R-2L-gL5">
+                    <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                </constraint>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ulw-fB-QkF" secondAttribute="trailing" constant="20" id="o0K-zm-Vr6">
+                    <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                </constraint>
+                <constraint firstItem="SX6-tG-CId" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oOq-gj-jtx"/>
+                <constraint firstItem="DHB-b4-pOD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pBd-T0-4zE"/>
+                <constraint firstItem="Ulw-fB-QkF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="t1I-vu-sJ9">
+                    <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                </constraint>
+                <constraint firstItem="Ulw-fB-QkF" firstAttribute="top" secondItem="SX6-tG-CId" secondAttribute="bottom" constant="13" id="vfj-gA-lfs">
+                    <variation key="heightClass=regular-widthClass=regular" constant="23"/>
+                </constraint>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DHB-b4-pOD" secondAttribute="trailing" id="xmO-08-7vt"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="DARK_GREEN">
+            <color red="0.20392156862745098" green="0.23529411764705882" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white_1">
+            <color red="0.93725490196078431" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

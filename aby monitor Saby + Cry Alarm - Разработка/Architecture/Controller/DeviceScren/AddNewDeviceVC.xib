@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans[wdth,wght].ttf">
+            <string>SofiaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddNewDeviceVC" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <connections>
+                <outlet property="qrcodeScanerButton" destination="M3n-wX-3vv" id="Zdj-1d-hvD"/>
+                <outlet property="rightWayText" destination="eBr-UO-tUu" id="fVJ-JR-73c"/>
+                <outlet property="shareLInkButton" destination="1WZ-DM-WId" id="HsS-cz-LL1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IG5-pv-GJB" customClass="NavigationView" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="24" width="1024" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Hrc-rD-hBS"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nameValue" value="Adding a new devices"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBr-UO-tUu">
+                    <rect key="frame" x="0.0" y="294" width="1024" height="50"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="50"/>
+                    </variation>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="VvN-N9-H7z">
+                    <rect key="frame" x="226.5" y="444" width="571" height="259.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="M3n-wX-3vv">
+                            <rect key="frame" x="0.0" y="0.0" width="260.5" height="259.5"/>
+                            <color key="backgroundColor" name="green1"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="Qr-code Scanner"/>
+                            <connections>
+                                <action selector="ONclick:" destination="-1" eventType="touchUpInside" id="ATk-uj-Uxl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WZ-DM-WId">
+                            <rect key="frame" x="310.5" y="0.0" width="260.5" height="259.5"/>
+                            <color key="backgroundColor" name="DARK_GREEN"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="share"/>
+                            <connections>
+                                <action selector="ONclick:" destination="-1" eventType="touchUpInside" id="AA6-RO-34z"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <variation key="heightClass=regular-widthClass=regular" spacing="50"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="white_1"/>
+            <constraints>
+                <constraint firstItem="eBr-UO-tUu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="18r-T3-ut1"/>
+                <constraint firstItem="VvN-N9-H7z" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.86" id="3T6-6u-zt2">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-310"/>
+                </constraint>
+                <constraint firstItem="VvN-N9-H7z" firstAttribute="top" secondItem="eBr-UO-tUu" secondAttribute="bottom" constant="40" id="4Rd-f8-tXc">
+                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                </constraint>
+                <constraint firstItem="eBr-UO-tUu" firstAttribute="top" secondItem="IG5-pv-GJB" secondAttribute="bottom" constant="148" id="74t-Lh-DaP">
+                    <variation key="heightClass=regular-widthClass=regular" constant="226"/>
+                </constraint>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eBr-UO-tUu" secondAttribute="trailing" id="E7L-5k-5v7"/>
+                <constraint firstItem="VvN-N9-H7z" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.19" id="Jr5-Ea-PnE"/>
+                <constraint firstItem="IG5-pv-GJB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="M2u-ue-BgE"/>
+                <constraint firstItem="VvN-N9-H7z" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="efv-IN-1yb"/>
+                <constraint firstItem="IG5-pv-GJB" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="faZ-IX-h9W"/>
+                <constraint firstItem="IG5-pv-GJB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zmg-DT-pbs"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="82.366071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Qr-code Scanner" width="62" height="71"/>
+        <image name="share" width="50" height="56"/>
+        <namedColor name="DARK_GREEN">
+            <color red="0.20392156862745098" green="0.23529411764705882" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="green1">
+            <color red="0.59215686274509804" green="0.70588235294117652" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white_1">
+            <color red="0.93725490196078431" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

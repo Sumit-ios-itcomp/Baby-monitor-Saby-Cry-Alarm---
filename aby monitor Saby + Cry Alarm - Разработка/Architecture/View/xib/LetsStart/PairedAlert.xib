@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-Bold.ttf">
+            <string>SofiaSans-Bold</string>
+        </array>
+        <array key="SofiaSans-Medium.ttf">
+            <string>SofiaSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PairedAlert" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <connections>
+                <outlet property="connectedLabel" destination="5yx-Zc-5c0" id="DCn-ic-PTl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="377"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineonAlert" translatesAutoresizingMaskIntoConstraints="NO" id="h6M-S5-CH9">
+                    <rect key="frame" x="200" y="40" width="51.5" height="2"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Zc-5c0">
+                    <rect key="frame" x="0.0" y="118" width="451" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="QYG-lO-7QG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SofiaSans-Medium" family="Sofia Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-15" translatesAutoresizingMaskIntoConstraints="NO" id="bnN-dM-xZQ">
+                    <rect key="frame" x="101.5" y="166" width="248" height="120.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFR-q8-NwY">
+                            <rect key="frame" x="0.0" y="0.0" width="92.5" height="120.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselected-iphone" translatesAutoresizingMaskIntoConstraints="NO" id="Ayt-0k-kUl">
+                                    <rect key="frame" x="0.0" y="8" width="92.5" height="98"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="98" id="kZd-U5-KcH"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPhone Baby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xM-pL-kZ9">
+                                    <rect key="frame" x="2" y="106" width="88.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="SofiaSans-Bold" family="Sofia Sans" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="1xM-pL-kZ9" firstAttribute="leading" secondItem="rFR-q8-NwY" secondAttribute="leading" constant="2" id="bq3-Ct-3vj"/>
+                                <constraint firstItem="Ayt-0k-kUl" firstAttribute="leading" secondItem="rFR-q8-NwY" secondAttribute="leading" id="fi6-YI-bvb"/>
+                                <constraint firstAttribute="trailing" secondItem="Ayt-0k-kUl" secondAttribute="trailing" id="gCo-Wi-cGM"/>
+                                <constraint firstItem="Ayt-0k-kUl" firstAttribute="top" secondItem="rFR-q8-NwY" secondAttribute="top" constant="8" id="h3w-Xt-oWb"/>
+                                <constraint firstItem="1xM-pL-kZ9" firstAttribute="top" secondItem="Ayt-0k-kUl" secondAttribute="bottom" id="klW-AA-WxC"/>
+                                <constraint firstAttribute="trailing" secondItem="1xM-pL-kZ9" secondAttribute="trailing" constant="2" id="y0J-ip-EMF"/>
+                                <constraint firstAttribute="bottom" secondItem="1xM-pL-kZ9" secondAttribute="bottom" id="zZR-J5-t6O"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-fi-dGA">
+                            <rect key="frame" x="77.5" y="0.0" width="93" height="120.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radiowaves" translatesAutoresizingMaskIntoConstraints="NO" id="9pn-xh-LWT">
+                                    <rect key="frame" x="31" y="41" width="31" height="39"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="9pn-xh-LWT" firstAttribute="centerX" secondItem="MI8-fi-dGA" secondAttribute="centerX" id="5Sk-uh-7wK"/>
+                                <constraint firstItem="9pn-xh-LWT" firstAttribute="centerY" secondItem="MI8-fi-dGA" secondAttribute="centerY" id="Vvq-LZ-pdn"/>
+                                <constraint firstItem="9pn-xh-LWT" firstAttribute="width" secondItem="MI8-fi-dGA" secondAttribute="width" multiplier="0.333333" id="cRF-Cs-UQ4"/>
+                                <constraint firstItem="9pn-xh-LWT" firstAttribute="height" secondItem="MI8-fi-dGA" secondAttribute="height" multiplier="0.323651" id="xgl-6o-BO5"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJ9-IU-ntB">
+                            <rect key="frame" x="155.5" y="0.0" width="92.5" height="120.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselected-iphone" translatesAutoresizingMaskIntoConstraints="NO" id="9kH-bS-eKA">
+                                    <rect key="frame" x="0.0" y="8" width="92.5" height="98"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="98" id="4Ko-9L-dgv"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPhone Parents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wu-y2-mKf">
+                                    <rect key="frame" x="2" y="106" width="88.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="SofiaSans-Bold" family="Sofia Sans" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="1wu-y2-mKf" firstAttribute="top" secondItem="9kH-bS-eKA" secondAttribute="bottom" id="9Tm-oW-Nxs"/>
+                                <constraint firstAttribute="bottom" secondItem="1wu-y2-mKf" secondAttribute="bottom" id="9uT-Zx-LBN"/>
+                                <constraint firstItem="9kH-bS-eKA" firstAttribute="leading" secondItem="IJ9-IU-ntB" secondAttribute="leading" id="PsI-vk-D3m"/>
+                                <constraint firstAttribute="trailing" secondItem="9kH-bS-eKA" secondAttribute="trailing" id="TqC-g7-gvz"/>
+                                <constraint firstItem="1wu-y2-mKf" firstAttribute="leading" secondItem="IJ9-IU-ntB" secondAttribute="leading" constant="2" id="qIG-Mw-M99"/>
+                                <constraint firstItem="9kH-bS-eKA" firstAttribute="top" secondItem="IJ9-IU-ntB" secondAttribute="top" constant="8" id="rfU-2o-qAB"/>
+                                <constraint firstAttribute="trailing" secondItem="1wu-y2-mKf" secondAttribute="trailing" constant="2" id="wrU-7Y-tJi"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5yx-Zc-5c0" secondAttribute="trailing" id="AfD-n3-fa3"/>
+                <constraint firstItem="bnN-dM-xZQ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.32" id="Aib-16-dhA"/>
+                <constraint firstItem="5yx-Zc-5c0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="As2-Mg-DQE"/>
+                <constraint firstItem="h6M-S5-CH9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EfC-eE-He5"/>
+                <constraint firstItem="bnN-dM-xZQ" firstAttribute="top" secondItem="5yx-Zc-5c0" secondAttribute="bottom" constant="30" id="Wzh-Nq-gvh"/>
+                <constraint firstItem="bnN-dM-xZQ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.55" id="YNY-lx-Ksm"/>
+                <constraint firstItem="bnN-dM-xZQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fiS-J3-Xo0"/>
+                <constraint firstItem="5yx-Zc-5c0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="74" id="hs9-hq-9qb"/>
+                <constraint firstItem="h6M-S5-CH9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="nE3-zp-HdM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="138.40579710144928" y="270.87053571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lineonAlert" width="51.5" height="2"/>
+        <image name="radiowaves" width="24" height="16.5"/>
+        <image name="unselected-iphone" width="42" height="84"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

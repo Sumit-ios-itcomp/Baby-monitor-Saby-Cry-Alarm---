@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-Bold.ttf">
+            <string>SofiaSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DeviceCollectionViewCell" reuseIdentifier="Device_cell" id="gTV-IL-0wX" customClass="DeviceCollectionViewCell" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="97" height="102"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselected-iphone" translatesAutoresizingMaskIntoConstraints="NO" id="IRh-xn-4Ut">
+                        <rect key="frame" x="27" y="12" width="42" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="52" id="fuO-cg-jzQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNn-4l-9LF">
+                        <rect key="frame" x="0.0" y="77" width="97" height="11"/>
+                        <fontDescription key="fontDescription" name="SofiaSans-Bold" family="Sofia Sans" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="rNn-4l-9LF" firstAttribute="top" secondItem="IRh-xn-4Ut" secondAttribute="bottom" constant="13" id="8YT-Sh-cCI"/>
+                <constraint firstAttribute="trailing" secondItem="rNn-4l-9LF" secondAttribute="trailing" id="A2g-tM-jtW"/>
+                <constraint firstItem="IRh-xn-4Ut" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="CSO-vu-u3U"/>
+                <constraint firstAttribute="trailing" secondItem="IRh-xn-4Ut" secondAttribute="trailing" constant="28" id="D5a-D3-tRl"/>
+                <constraint firstItem="IRh-xn-4Ut" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="27" id="NAA-5T-y9k"/>
+                <constraint firstItem="rNn-4l-9LF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TBk-vS-HTY"/>
+                <constraint firstAttribute="bottom" secondItem="rNn-4l-9LF" secondAttribute="bottom" constant="14" id="sB7-jO-pSx"/>
+            </constraints>
+            <size key="customSize" width="97" height="102"/>
+            <connections>
+                <outlet property="deviceName" destination="rNn-4l-9LF" id="fti-6d-1vw"/>
+            </connections>
+            <point key="canvasLocation" x="165.94202898550725" y="133.92857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="unselected-iphone" width="42" height="84"/>
+    </resources>
+</document>

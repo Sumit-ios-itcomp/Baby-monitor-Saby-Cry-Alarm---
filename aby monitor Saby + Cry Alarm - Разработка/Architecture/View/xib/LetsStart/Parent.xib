@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-ExtraBold.ttf">
+            <string>SofiaSans-ExtraBold</string>
+        </array>
+        <array key="SofiaSans[wdth,wght].ttf">
+            <string>SofiaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Parent" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="244"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maternity" translatesAutoresizingMaskIntoConstraints="NO" id="nhr-HM-33M">
+                    <rect key="frame" x="58.5" y="72" width="50" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkD-yZ-Nsw">
+                    <rect key="frame" x="54.5" y="136" width="58.5" height="17"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-ExtraBold" family="Sofia Sans" pointSize="17"/>
+                    <color key="textColor" name="white"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-ExtraBold" family="Sofia Sans" pointSize="30"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="monitor your baby" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I17-El-zrg">
+                    <rect key="frame" x="2" y="153.5" width="163" height="16"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="16"/>
+                    <color key="textColor" name="white"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="26"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cl-b6-h1p">
+                    <rect key="frame" x="0.0" y="0.0" width="167" height="244"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="parentAction:" destination="-1" eventType="touchUpInside" id="nDr-Xp-Jcp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="8cl-b6-h1p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2Kb-Fi-XpO"/>
+                <constraint firstItem="I17-El-zrg" firstAttribute="centerX" secondItem="nhr-HM-33M" secondAttribute="centerX" id="CEU-4M-dC1"/>
+                <constraint firstItem="8cl-b6-h1p" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="FRJ-KB-VFn"/>
+                <constraint firstItem="nhr-HM-33M" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.204918" id="KGh-uI-3PL"/>
+                <constraint firstItem="I17-El-zrg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="Ra7-NW-wrD"/>
+                <constraint firstItem="8cl-b6-h1p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eib-Re-Kzx"/>
+                <constraint firstItem="8cl-b6-h1p" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="git-0f-Lqc"/>
+                <constraint firstItem="nhr-HM-33M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-25" id="iJV-BG-jIo"/>
+                <constraint firstItem="qkD-yZ-Nsw" firstAttribute="top" secondItem="nhr-HM-33M" secondAttribute="bottom" constant="14" id="ki5-V9-zEL"/>
+                <constraint firstItem="nhr-HM-33M" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mRL-Fn-hvy"/>
+                <constraint firstItem="I17-El-zrg" firstAttribute="centerX" secondItem="qkD-yZ-Nsw" secondAttribute="centerX" id="nFv-Yu-yyd"/>
+                <constraint firstItem="I17-El-zrg" firstAttribute="top" secondItem="qkD-yZ-Nsw" secondAttribute="bottom" constant="0.5" id="vQ7-rx-fjX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="83" y="226"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="maternity" width="50" height="50"/>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

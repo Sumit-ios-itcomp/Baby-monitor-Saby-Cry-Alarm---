@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SofiaSans-ExtraBold.ttf">
+            <string>SofiaSans-ExtraBold</string>
+        </array>
+        <array key="SofiaSans[wdth,wght].ttf">
+            <string>SofiaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Child" customModule="aby_monitor_Saby___Cry_Alarm___Разработка" customModuleProvider="target">
+            <connections>
+                <outlet property="child_Button" destination="nsX-eO-rPx" id="gwa-VF-cXg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ZNa-kW-6fL">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="244"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="children" translatesAutoresizingMaskIntoConstraints="NO" id="ugS-UI-lMA">
+                    <rect key="frame" x="58.5" y="72" width="50" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-RH-kWy">
+                    <rect key="frame" x="51" y="136" width="65.5" height="30"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-ExtraBold" family="Sofia Sans" pointSize="17"/>
+                    <color key="textColor" name="white"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-ExtraBold" family="Sofia Sans" pointSize="30"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the camera" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsc-RY-Tfq">
+                    <rect key="frame" x="2" y="166.5" width="163" height="26"/>
+                    <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="16"/>
+                    <color key="textColor" name="white"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="SofiaSans-Regular" family="Sofia Sans" pointSize="26"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsX-eO-rPx">
+                    <rect key="frame" x="0.0" y="0.0" width="167" height="244"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="childButtonisClicked:" destination="-1" eventType="touchUpInside" id="9nU-Cx-lbH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="y8w-Qm-qm6"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nsX-eO-rPx" firstAttribute="trailing" secondItem="y8w-Qm-qm6" secondAttribute="trailing" id="2qe-Kf-Vqx"/>
+                <constraint firstItem="tsc-RY-Tfq" firstAttribute="centerX" secondItem="gNW-RH-kWy" secondAttribute="centerX" id="4ng-P4-3iv"/>
+                <constraint firstItem="tsc-RY-Tfq" firstAttribute="leading" secondItem="y8w-Qm-qm6" secondAttribute="leading" constant="2" id="6Rz-pK-gg0"/>
+                <constraint firstItem="ugS-UI-lMA" firstAttribute="height" secondItem="ZNa-kW-6fL" secondAttribute="height" multiplier="0.204918" id="7Cr-JV-VyV">
+                    <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="ugS-UI-lMA" firstAttribute="centerX" secondItem="ZNa-kW-6fL" secondAttribute="centerX" id="IZd-YY-d9O"/>
+                <constraint firstItem="tsc-RY-Tfq" firstAttribute="top" secondItem="gNW-RH-kWy" secondAttribute="bottom" constant="0.5" id="d0n-0x-3mb"/>
+                <constraint firstItem="nsX-eO-rPx" firstAttribute="leading" secondItem="y8w-Qm-qm6" secondAttribute="leading" id="jrl-ml-mMl"/>
+                <constraint firstItem="gNW-RH-kWy" firstAttribute="top" secondItem="ugS-UI-lMA" secondAttribute="bottom" constant="14" id="kuE-oY-atD"/>
+                <constraint firstItem="nsX-eO-rPx" firstAttribute="top" secondItem="ZNa-kW-6fL" secondAttribute="top" id="o9K-JW-Smb"/>
+                <constraint firstItem="ugS-UI-lMA" firstAttribute="centerY" secondItem="ZNa-kW-6fL" secondAttribute="centerY" constant="-25" id="rAr-Zl-B77"/>
+                <constraint firstItem="nsX-eO-rPx" firstAttribute="bottom" secondItem="y8w-Qm-qm6" secondAttribute="bottom" id="rkf-Vn-816"/>
+                <constraint firstItem="tsc-RY-Tfq" firstAttribute="centerX" secondItem="ugS-UI-lMA" secondAttribute="centerX" id="s9c-l2-dKV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-41.304347826086961" y="333.48214285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="children" width="50" height="50"/>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
